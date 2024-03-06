@@ -1,0 +1,165 @@
+{
+    "os": "Linux-6.5.0-21-generic-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-02-28T13:10:36.840094",
+    "startedAt": "2024-02-28T13:10:35.443987",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--diffusion_mode",
+        "epsilon"
+    ],
+    "state": "running",
+    "program": "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "sehwan--Ubuntu",
+    "username": "sehwan",
+    "executable": "/home/sehwan/anaconda3/envs/CAL/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 939.6029583333334,
+        "min": 800.0,
+        "max": 4950.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1113.596,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1099.843,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1137.571,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1113.35,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1185.494,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1358.924,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1188.818,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1236.315,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1227.766,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1213.05,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1279.288,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1168.153,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2777.629,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1108.337,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 457.3268280029297,
+            "used": 65.7152214050293
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 31.165729522705078
+    }
+}

@@ -1,0 +1,18 @@
+
+
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:02<00:00, 50.20it/s, loss=3.07, lr=2.08e-6, step=104]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/main.py", line 104, in <module>
+    app.run(main)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/main.py", line 76, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/trainers/cal_trainer.py", line 222, in train
+    self.CAL_train_epsilon(epoch)
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/trainers/cal_trainer.py", line 558, in CAL_train_epsilon
+    train_pred_geometry_refine = refinement_from_model(batch, self.model, device, self.diffusion, geometry_scale, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/trainers/cal_trainer.py", line 78, in refinement_from_model
+    "image_features": torch.randn(*shape2, dtype=torch.float32, device=device)*geometry_scale.view(1, 1, 6).to(device)* batch['padding_mask'] #이미지의 가우시안 노이즈
+RuntimeError: The size of tensor a (512) must match the size of tensor b (6) at non-singleton dimension 2

@@ -1,0 +1,11 @@
+
+Epoch 0:   0%|                                                                                                                                                                                 | 0/104 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 164, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 48, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 126, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 287, in CAL_train
+    val_losses_img_features.append(val_img_feature_loss.mean()*self.loss_weight[3])
+AttributeError: 'int' object has no attribute 'mean'

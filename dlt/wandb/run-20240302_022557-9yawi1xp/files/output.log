@@ -1,0 +1,30 @@
+Epoch 0:  44%|████████████████████████████████████████████████████████████████████████████▌                                                                                                | 46/104 [00:02<00:02, 25.92it/s, loss=2.97, lr=9.2e-7, step=46]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 181, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 54, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 129, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 147, in CAL_train
+    for step, (batch, ids) in enumerate(self.train_dataloader):
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/accelerate/data_loader.py", line 462, in __iter__
+    next_batch = next(dataloader_iter)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1329, in _next_data
+    idx, data = self._get_data()
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1295, in _get_data
+    success, data = self._try_get_data()
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1133, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/multiprocessing/reductions.py", line 495, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/multiprocessing/resource_sharer.py", line 58, in detach
+    return reduction.recv_handle(conn)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/multiprocessing/reduction.py", line 189, in recv_handle
+    return recvfds(s, 1)[0]
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/multiprocessing/reduction.py", line 157, in recvfds
+    msg, ancdata, flags, addr = sock.recvmsg(1, socket.CMSG_SPACE(bytes_size))
+KeyboardInterrupt

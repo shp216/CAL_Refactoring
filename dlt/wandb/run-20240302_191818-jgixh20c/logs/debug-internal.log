@@ -1,0 +1,207 @@
+2024-03-02 19:18:18,884 INFO    MainThread:345131 [internal.py:wandb_internal():86] W&B internal server running at pid: 345131, started at: 2024-03-02 19:18:18.884400
+2024-03-02 19:18:18,886 INFO    WriterThread:345131 [datastore.py:open_for_write():87] open: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/run-jgixh20c.wandb
+2024-03-02 19:18:18,886 DEBUG   SenderThread:345131 [sender.py:send():382] send: header
+2024-03-02 19:18:18,886 DEBUG   SenderThread:345131 [sender.py:send():382] send: run
+2024-03-02 19:18:19,466 INFO    SenderThread:345131 [dir_watcher.py:__init__():211] watching files in: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files
+2024-03-02 19:18:19,467 INFO    SenderThread:345131 [sender.py:_start_run_threads():1136] run started: jgixh20c with start time 1709374698.631481
+2024-03-02 19:18:19,472 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: check_version
+2024-03-02 19:18:19,473 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: check_version
+2024-03-02 19:18:19,531 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: run_start
+2024-03-02 19:18:19,546 DEBUG   HandlerThread:345131 [system_info.py:__init__():27] System info init
+2024-03-02 19:18:19,546 DEBUG   HandlerThread:345131 [system_info.py:__init__():42] System info init done
+2024-03-02 19:18:19,546 INFO    HandlerThread:345131 [system_monitor.py:start():194] Starting system monitor
+2024-03-02 19:18:19,546 INFO    SystemMonitor:345131 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-02 19:18:19,546 INFO    HandlerThread:345131 [system_monitor.py:probe():214] Collecting system info
+2024-03-02 19:18:19,546 INFO    SystemMonitor:345131 [interfaces.py:start():190] Started cpu monitoring
+2024-03-02 19:18:19,547 INFO    SystemMonitor:345131 [interfaces.py:start():190] Started disk monitoring
+2024-03-02 19:18:19,547 INFO    SystemMonitor:345131 [interfaces.py:start():190] Started gpu monitoring
+2024-03-02 19:18:19,548 INFO    SystemMonitor:345131 [interfaces.py:start():190] Started memory monitoring
+2024-03-02 19:18:19,550 INFO    SystemMonitor:345131 [interfaces.py:start():190] Started network monitoring
+2024-03-02 19:18:19,559 DEBUG   HandlerThread:345131 [system_info.py:probe():151] Probing system
+2024-03-02 19:18:19,564 DEBUG   HandlerThread:345131 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-02 19:18:19,564 DEBUG   HandlerThread:345131 [system_info.py:probe():199] Probing system done
+2024-03-02 19:18:19,564 DEBUG   HandlerThread:345131 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-21-generic-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-03-02T10:18:19.559967', 'startedAt': '2024-03-02T10:18:18.588039', 'docker': None, 'cuda': None, 'args': ('--diffusion_mode', 'epsilon', '--image_pred_ox', 'True', '--mean_0', 'True'), 'state': 'running', 'program': '/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': 'sehwan--Ubuntu', 'username': 'sehwan', 'executable': '/home/sehwan/anaconda3/envs/CAL/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2687.642208333333, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 4710.027, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4465.882, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4912.575, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4337.747, 'min': 800.0, 'max': 5300.0}, {'current': 4276.126, 'min': 800.0, 'max': 5300.0}, {'current': 4342.631, 'min': 800.0, 'max': 5400.0}, {'current': 800.0, 'min': 800.0, 'max': 5400.0}, {'current': 4406.633, 'min': 800.0, 'max': 5400.0}, {'current': 4231.512, 'min': 800.0, 'max': 5400.0}, {'current': 4646.922, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4591.716, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4182.138, 'min': 800.0, 'max': 4200.0}, {'current': 4121.402, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 457.3268280029297, 'used': 70.17899322509766}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.165721893310547}}
+2024-03-02 19:18:19,564 INFO    HandlerThread:345131 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-02 19:18:19,564 INFO    HandlerThread:345131 [system_monitor.py:probe():227] Publishing system info
+2024-03-02 19:18:19,564 DEBUG   HandlerThread:345131 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-02 19:18:20,467 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/conda-environment.yaml
+2024-03-02 19:18:20,608 DEBUG   HandlerThread:345131 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-02 19:18:20,608 INFO    HandlerThread:345131 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-02 19:18:20,610 DEBUG   SenderThread:345131 [sender.py:send():382] send: files
+2024-03-02 19:18:20,610 INFO    SenderThread:345131 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-02 19:18:20,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-02 19:18:20,612 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: python_packages
+2024-03-02 19:18:20,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:18:20,612 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:18:20,613 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:18:20,938 DEBUG   SenderThread:345131 [sender.py:send():382] send: telemetry
+2024-03-02 19:18:21,318 INFO    wandb-upload_0:345131 [upload_job.py:push():131] Uploaded file /tmp/tmp4hne8y7iwandb/vuodcb3x-wandb-metadata.json
+2024-03-02 19:18:21,467 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/conda-environment.yaml
+2024-03-02 19:18:21,467 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/wandb-metadata.json
+2024-03-02 19:18:21,467 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/requirements.txt
+2024-03-02 19:18:21,467 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:23,468 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:23,911 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:18:25,468 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:27,468 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:29,122 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:18:29,469 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:31,469 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:33,469 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:34,962 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:18:35,470 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:35,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:18:35,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:18:35,612 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:18:37,470 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:39,990 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:18:41,471 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:43,471 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:45,471 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:45,743 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:18:47,472 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:49,472 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:50,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:18:50,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:18:50,612 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:18:50,914 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:18:51,473 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/config.yaml
+2024-03-02 19:18:53,473 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:55,474 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:57,142 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:18:57,474 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:18:59,475 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:02,152 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:03,476 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:05,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:19:05,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:19:05,612 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:19:07,167 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:07,477 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:09,477 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:11,478 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:12,506 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:13,478 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:17,479 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:18,468 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:19,479 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:19,550 DEBUG   SystemMonitor:345131 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-02 19:19:19,551 DEBUG   SenderThread:345131 [sender.py:send():382] send: stats
+2024-03-02 19:19:20,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:19:20,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:19:20,613 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:19:23,480 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:24,027 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:25,480 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:27,481 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:29,236 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:31,481 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:33,482 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:35,034 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:35,483 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:35,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:19:35,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:19:35,613 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:19:37,483 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:39,483 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:40,423 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:45,484 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:46,307 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:47,485 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:49,485 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:49,551 DEBUG   SenderThread:345131 [sender.py:send():382] send: stats
+2024-03-02 19:19:50,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:19:50,613 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:19:50,613 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:19:51,485 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:51,890 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:53,486 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:57,271 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:19:57,486 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:19:59,487 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:01,487 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:02,598 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:03,488 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:05,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:20:05,613 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:20:05,614 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:20:07,488 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:08,025 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:09,488 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:11,489 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:13,489 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:13,842 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:15,489 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:19,304 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:19,490 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:19,551 DEBUG   SenderThread:345131 [sender.py:send():382] send: stats
+2024-03-02 19:20:20,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:20:20,613 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:20:20,613 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:20:23,491 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:24,304 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:25,491 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:27,492 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:29,492 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:30,225 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:33,492 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:35,493 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:35,556 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:35,612 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:20:35,613 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:20:35,613 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:20:37,493 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:39,493 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:41,332 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:41,494 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:45,494 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:46,574 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:47,495 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:47,503 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-02 19:20:47,503 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-02 19:20:49,495 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:49,552 DEBUG   SenderThread:345131 [sender.py:send():382] send: stats
+2024-03-02 19:20:50,613 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 19:20:50,613 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 19:20:50,613 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 19:20:51,496 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:51,586 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:52,218 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-02 19:20:52,219 DEBUG   SenderThread:345131 [sender.py:send():382] send: history
+2024-03-02 19:20:52,220 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: summary_record
+2024-03-02 19:20:52,220 INFO    SenderThread:345131 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-02 19:20:52,496 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/wandb-summary.json
+2024-03-02 19:20:53,496 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:55,496 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:56,591 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:20:56,905 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-02 19:20:56,906 DEBUG   SenderThread:345131 [sender.py:send():382] send: history
+2024-03-02 19:20:56,906 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: summary_record
+2024-03-02 19:20:56,906 INFO    SenderThread:345131 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-02 19:20:57,497 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/wandb-summary.json
+2024-03-02 19:20:57,497 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:20:59,497 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:21:01,498 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:21:01,628 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-02 19:21:01,628 DEBUG   SenderThread:345131 [sender.py:send():382] send: history
+2024-03-02 19:21:01,628 DEBUG   SenderThread:345131 [sender.py:send_request():409] send_request: summary_record
+2024-03-02 19:21:01,629 INFO    SenderThread:345131 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-02 19:21:01,629 DEBUG   HandlerThread:345131 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 19:21:02,498 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/wandb-summary.json
+2024-03-02 19:21:03,498 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:21:04,794 WARNING MainThread:345131 [internal.py:wandb_internal():156] Internal process interrupt: 1
+2024-03-02 19:21:05,294 WARNING MainThread:345131 [internal.py:wandb_internal():156] Internal process interrupt: 2
+2024-03-02 19:21:05,295 ERROR   MainThread:345131 [internal.py:wandb_internal():159] Internal process interrupted.
+2024-03-02 19:21:05,296 INFO    HandlerThread:345131 [handler.py:finish():869] shutting down handler
+2024-03-02 19:21:05,296 INFO    WriterThread:345131 [datastore.py:close():296] close: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/run-jgixh20c.wandb
+2024-03-02 19:21:05,296 INFO    HandlerThread:345131 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-02 19:21:05,296 INFO    SenderThread:345131 [sender.py:finish():1572] shutting down sender
+2024-03-02 19:21:05,297 DEBUG   SystemMonitor:345131 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-02 19:21:05,298 INFO    HandlerThread:345131 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-02 19:21:05,298 DEBUG   SystemMonitor:345131 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-02 19:21:05,299 INFO    HandlerThread:345131 [interfaces.py:finish():202] Joined disk monitor
+2024-03-02 19:21:05,337 INFO    HandlerThread:345131 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-02 19:21:05,338 INFO    HandlerThread:345131 [interfaces.py:finish():202] Joined memory monitor
+2024-03-02 19:21:05,338 INFO    HandlerThread:345131 [interfaces.py:finish():202] Joined network monitor
+2024-03-02 19:21:05,499 INFO    Thread-7  :345131 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240302_191818-jgixh20c/files/output.log
+2024-03-02 19:21:05,891 INFO    MainThread:345131 [internal.py:handle_exit():76] Internal process exited

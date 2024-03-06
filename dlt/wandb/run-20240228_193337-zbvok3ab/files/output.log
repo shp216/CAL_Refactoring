@@ -1,0 +1,18 @@
+
+
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:02<00:00, 52.88it/s, loss=2.29, lr=2.08e-6, step=104]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 162, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 48, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 122, in train
+    self.CAL_train_sample(epoch)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 248, in CAL_train_sample
+    train_pred_geometry_refine = refinement_from_model(batch, self.model, device, self.diffusion, geometry_scale, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer_func.py", line 60, in refinement_from_model
+    geometry_pred = diffusion.inference_step(x0_pred,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/diffusion.py", line 190, in inference_step
+    bbox = super().step(cont_output, timestep.detach().item(), sample, generator, return_dict)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/diffusers/schedulers/scheduling_ddpm.py", line 477, in step
+    pred_prev_sample = pred_original_sample_coeff * pred_original_sample + current_sample_coeff * sample
+RuntimeError: The size of tensor a (518) must match the size of tensor b (6) at non-singleton dimension 2

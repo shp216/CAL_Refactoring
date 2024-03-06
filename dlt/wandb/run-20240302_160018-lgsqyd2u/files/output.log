@@ -1,0 +1,1086 @@
+
+  0%|                                                                                                                                                                                                                               | 0/11 [00:00<?, ?it/s]
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(2188.8386, device='cuda:0') tensor(-2918.5654, device='cuda:0') tensor(-841.8803, device='cuda:0') tensor(-5000.0137, device='cuda:0')
+#################################################################################################
+width: tensor(-1616410.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape4.png
+height: tensor(-5400015., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-208.9567, device='cuda:0') tensor(4165.2783, device='cuda:0') tensor(-6389.5732, device='cuda:0') tensor(10407.9336, device='cuda:0')
+#################################################################################################
+width: tensor(-12267981., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape2.png
+height: tensor(11240568., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(1162.4932, device='cuda:0') tensor(2345.2412, device='cuda:0') tensor(6792.6406, device='cuda:0') tensor(-6595.9751, device='cuda:0')
+#################################################################################################
+height: tensor(-7123653., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape3.png
+width: tensor(13041870., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(-3860.2979, device='cuda:0') tensor(870.0076, device='cuda:0') tensor(-8264.4834, device='cuda:0') tensor(98.3619, device='cuda:0')
+#################################################################################################
+width: tensor(-15867808., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape5.png
+height: tensor(106230.8203, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(3752.0298, device='cuda:0') tensor(4340.3315, device='cuda:0') tensor(-12807.1123, device='cuda:0') tensor(3482.4878, device='cuda:0')
+#################################################################################################
+width: tensor(-24589656., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape1.png
+height: tensor(3761086.7500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(4817.9487, device='cuda:0') tensor(2244.4143, device='cuda:0') tensor(-6060.9653, device='cuda:0') tensor(-2329.9573, device='cuda:0')
+#################################################################################################
+width: tensor(-11637053., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape6.png
+height: tensor(-2516353.7500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide1_Shape6.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(3163.0913, device='cuda:0') tensor(-193.3434, device='cuda:0') tensor(-2616.8059, device='cuda:0') tensor(6334.0039, device='cuda:0')
+#################################################################################################
+width: tensor(-5024267.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape4.png
+height: tensor(6840724., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(1949.3483, device='cuda:0') tensor(1252.1223, device='cuda:0') tensor(-419.8172, device='cuda:0') tensor(6357.1484, device='cuda:0')
+#################################################################################################
+width: tensor(-806049.0625, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape1.png
+height: tensor(6865720.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(2633.1729, device='cuda:0') tensor(-3667.6973, device='cuda:0') tensor(6620.4897, device='cuda:0') tensor(-2543.2283, device='cuda:0')
+#################################################################################################
+height: tensor(-2746686.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape3.png
+width: tensor(12711340., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(5744.7480, device='cuda:0') tensor(-3252.2192, device='cuda:0') tensor(-1335.2656, device='cuda:0') tensor(1666.7866, device='cuda:0')
+#################################################################################################
+width: tensor(-2563710., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape5.png
+height: tensor(1800129.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(-2968.4653, device='cuda:0') tensor(-3315.5742, device='cuda:0') tensor(-7418.4746, device='cuda:0') tensor(8278.5537, device='cuda:0')
+#################################################################################################
+width: tensor(-14243471., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape6.png
+height: tensor(8940838., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(-782.0190, device='cuda:0') tensor(-9072.8555, device='cuda:0') tensor(-6322.7417, device='cuda:0') tensor(-10001.6836, device='cuda:0')
+#################################################################################################
+width: tensor(-12139664., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape2.png
+height: tensor(-10801818., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide2_Shape2.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-8687.7617, device='cuda:0') tensor(1458.5861, device='cuda:0') tensor(-2347.7219, device='cuda:0') tensor(-3017.4609, device='cuda:0')
+#################################################################################################
+width: tensor(-4507626., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape8.png
+height: tensor(-3258857.7500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(-2319.8140, device='cuda:0') tensor(5485.4731, device='cuda:0') tensor(-6726.0957, device='cuda:0') tensor(509.6728, device='cuda:0')
+#################################################################################################
+width: tensor(-12914104., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape3.png
+height: tensor(550446.6250, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(84.3131, device='cuda:0') tensor(3055.7314, device='cuda:0') tensor(-7417.8164, device='cuda:0') tensor(-3351.2144, device='cuda:0')
+#################################################################################################
+width: tensor(-14242208., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape6.png
+height: tensor(-3619311.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(1328.1576, device='cuda:0') tensor(817.0546, device='cuda:0') tensor(-13310.8428, device='cuda:0') tensor(2247.3965, device='cuda:0')
+#################################################################################################
+width: tensor(-25556818., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape7.png
+height: tensor(2427188.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(-769.8054, device='cuda:0') tensor(-3700.6099, device='cuda:0') tensor(-8996.8779, device='cuda:0') tensor(-442.2610, device='cuda:0')
+#################################################################################################
+width: tensor(-17274006., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape1.png
+height: tensor(-477641.9062, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(-33.9412, device='cuda:0') tensor(7182.3047, device='cuda:0') tensor(1016.4334, device='cuda:0') tensor(-6121.3032, device='cuda:0')
+#################################################################################################
+height: tensor(-6611007.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape4.png
+width: tensor(1951552.1250, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-2349.4458, device='cuda:0') tensor(5820.1362, device='cuda:0') tensor(-3328.1616, device='cuda:0') tensor(2995.4260, device='cuda:0')
+#################################################################################################
+width: tensor(-6390070.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape5.png
+height: tensor(3235060., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(-2231.6021, device='cuda:0') tensor(12801.6689, device='cuda:0') tensor(-10343.4082, device='cuda:0') tensor(1927.7772, device='cuda:0')
+#################################################################################################
+width: tensor(-19859344., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape2.png
+height: tensor(2081999.3750, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide3_Shape2.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-894.8188, device='cuda:0') tensor(-1358.2023, device='cuda:0') tensor(-498.3139, device='cuda:0') tensor(-4152.3535, device='cuda:0')
+#################################################################################################
+width: tensor(-956762.6250, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape3.png
+height: tensor(-4484542., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(-1146.6410, device='cuda:0') tensor(-145.2108, device='cuda:0') tensor(-6316.5483, device='cuda:0') tensor(8092.1187, device='cuda:0')
+#################################################################################################
+width: tensor(-12127773., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape6.png
+height: tensor(8739488., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(1838.3879, device='cuda:0') tensor(2084.3821, device='cuda:0') tensor(-7337.2515, device='cuda:0') tensor(146.6416, device='cuda:0')
+#################################################################################################
+width: tensor(-14087523., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape8.png
+height: tensor(158372.9688, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(1390.7651, device='cuda:0') tensor(-318.8737, device='cuda:0') tensor(-5866.0288, device='cuda:0') tensor(1411.6411, device='cuda:0')
+#################################################################################################
+width: tensor(-11262775., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape9.png
+height: tensor(1524572.3750, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(2087.3987, device='cuda:0') tensor(-1662.5035, device='cuda:0') tensor(5654.1992, device='cuda:0') tensor(-816.5709, device='cuda:0')
+#################################################################################################
+height: tensor(-881896.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape7.png
+width: tensor(10856062., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(-5411.7368, device='cuda:0') tensor(5197.6724, device='cuda:0') tensor(-11698.3838, device='cuda:0') tensor(3679.8086, device='cuda:0')
+#################################################################################################
+width: tensor(-22460896., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape2.png
+height: tensor(3974193.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(2277.1089, device='cuda:0') tensor(3540.9006, device='cuda:0') tensor(-6884.3320, device='cuda:0') tensor(1298.1061, device='cuda:0')
+#################################################################################################
+width: tensor(-13217918., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape5.png
+height: tensor(1401954.6250, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(3322.1653, device='cuda:0') tensor(5458.3794, device='cuda:0') tensor(-15639.8994, device='cuda:0') tensor(20337.9277, device='cuda:0')
+#################################################################################################
+width: tensor(-30028606., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape1.png
+height: tensor(21964962., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(247.8921, device='cuda:0') tensor(-3326.2402, device='cuda:0') tensor(-838.1554, device='cuda:0') tensor(-2647.4788, device='cuda:0')
+#################################################################################################
+width: tensor(-1609258.3750, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape4.png
+height: tensor(-2859277., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide4_Shape4.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-472.5534, device='cuda:0') tensor(1089.0057, device='cuda:0') tensor(-12171.9336, device='cuda:0') tensor(5573.3394, device='cuda:0')
+#################################################################################################
+width: tensor(-23370112., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape7.png
+height: tensor(6019206.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(-2568.7395, device='cuda:0') tensor(-2411.1116, device='cuda:0') tensor(-1854.3965, device='cuda:0') tensor(9374.4766, device='cuda:0')
+#################################################################################################
+width: tensor(-3560441.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape4.png
+height: tensor(10124435., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-107.5348, device='cuda:0') tensor(-5505.8359, device='cuda:0') tensor(2245.7375, device='cuda:0') tensor(-4047.5305, device='cuda:0')
+#################################################################################################
+height: tensor(-4371333., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape6.png
+width: tensor(4311816., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(-3555.7339, device='cuda:0') tensor(-1737.9977, device='cuda:0') tensor(-8356.8584, device='cuda:0') tensor(5757.0352, device='cuda:0')
+#################################################################################################
+width: tensor(-16045168., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape2.png
+height: tensor(6217598., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(1512.9128, device='cuda:0') tensor(-376.9427, device='cuda:0') tensor(1712.2000, device='cuda:0') tensor(-3924.9912, device='cuda:0')
+#################################################################################################
+height: tensor(-4238990.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape1.png
+width: tensor(3287424., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(-1037.1196, device='cuda:0') tensor(5914.4243, device='cuda:0') tensor(-1448.9080, device='cuda:0') tensor(3038.4807, device='cuda:0')
+#################################################################################################
+width: tensor(-2781903.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape3.png
+height: tensor(3281559.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(2969.5740, device='cuda:0') tensor(-7144.7476, device='cuda:0') tensor(1607.7354, device='cuda:0') tensor(-8835.7354, device='cuda:0')
+#################################################################################################
+height: tensor(-9542594., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape5.png
+width: tensor(3086852., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide5_Shape5.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-4831.3433, device='cuda:0') tensor(4417.3438, device='cuda:0') tensor(-13047.6406, device='cuda:0') tensor(2235.9917, device='cuda:0')
+#################################################################################################
+width: tensor(-25051470., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape5.png
+height: tensor(2414871., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(-2875.5103, device='cuda:0') tensor(-6510.5469, device='cuda:0') tensor(-4380.1133, device='cuda:0') tensor(606.8455, device='cuda:0')
+#################################################################################################
+width: tensor(-8409818., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape4.png
+height: tensor(655393.1250, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(839.6259, device='cuda:0') tensor(-84.1671, device='cuda:0') tensor(-675.3193, device='cuda:0') tensor(-3024.6487, device='cuda:0')
+#################################################################################################
+width: tensor(-1296613., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape1.png
+height: tensor(-3266620.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(2019.9484, device='cuda:0') tensor(1193.2545, device='cuda:0') tensor(-11300.4043, device='cuda:0') tensor(-8518.2490, device='cuda:0')
+#################################################################################################
+width: tensor(-21696776., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape2.png
+height: tensor(-9199709., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(9800.8623, device='cuda:0') tensor(-4868.9600, device='cuda:0') tensor(-6007.0293, device='cuda:0') tensor(-1510.4270, device='cuda:0')
+#################################################################################################
+width: tensor(-11533496., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape6.png
+height: tensor(-1631261.1250, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(-3411.4294, device='cuda:0') tensor(4786.9780, device='cuda:0') tensor(1977.0244, device='cuda:0') tensor(7887.3940, device='cuda:0')
+#################################################################################################
+width: tensor(3795887., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape3.png
+height: tensor(8518386., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide6_Shape3.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-2375.0227, device='cuda:0') tensor(687.6997, device='cuda:0') tensor(-5476.3105, device='cuda:0') tensor(-4956.6050, device='cuda:0')
+#################################################################################################
+width: tensor(-10514516., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape5.png
+height: tensor(-5353133.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(1263.0596, device='cuda:0') tensor(-2694.5469, device='cuda:0') tensor(-3002.2812, device='cuda:0') tensor(-6616.4224, device='cuda:0')
+#################################################################################################
+width: tensor(-5764380., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape3.png
+height: tensor(-7145736., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(-3093.1855, device='cuda:0') tensor(12124.0459, device='cuda:0') tensor(-6515.9106, device='cuda:0') tensor(29010.3633, device='cuda:0')
+#################################################################################################
+width: tensor(-12510548., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape2.png
+height: tensor(31331192., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(-5737.8320, device='cuda:0') tensor(-1725.3737, device='cuda:0') tensor(-11493.9121, device='cuda:0') tensor(7945.2139, device='cuda:0')
+#################################################################################################
+width: tensor(-22068312., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape6.png
+height: tensor(8580831., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(-101.2596, device='cuda:0') tensor(481.5081, device='cuda:0') tensor(-17957.1270, device='cuda:0') tensor(2204.8367, device='cuda:0')
+#################################################################################################
+width: tensor(-34477684., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape4.png
+height: tensor(2381223.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(1866.9575, device='cuda:0') tensor(-1307.1611, device='cuda:0') tensor(-10511.4863, device='cuda:0') tensor(11716.2910, device='cuda:0')
+#################################################################################################
+width: tensor(-20182054., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape7.png
+height: tensor(12653594., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(-375.2085, device='cuda:0') tensor(4166.4023, device='cuda:0') tensor(2307.9873, device='cuda:0') tensor(-261.8308, device='cuda:0')
+#################################################################################################
+height: tensor(-282777.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape1.png
+width: tensor(4431335.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide7_Shape1.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(7554.6021, device='cuda:0') tensor(-2450.3455, device='cuda:0') tensor(-6322.7427, device='cuda:0') tensor(235.9739, device='cuda:0')
+#################################################################################################
+width: tensor(-12139666., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape7.png
+height: tensor(254851.7812, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(-4804.1221, device='cuda:0') tensor(1918.9268, device='cuda:0') tensor(-483.6624, device='cuda:0') tensor(1930.0419, device='cuda:0')
+#################################################################################################
+width: tensor(-928631.7500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape2.png
+height: tensor(2084445.2500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(-623.9649, device='cuda:0') tensor(4330.8823, device='cuda:0') tensor(-8854.1963, device='cuda:0') tensor(-5912.9336, device='cuda:0')
+#################################################################################################
+width: tensor(-17000056., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape3.png
+height: tensor(-6385968.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(-4360.6875, device='cuda:0') tensor(1555.6084, device='cuda:0') tensor(-5390.8179, device='cuda:0') tensor(-5008.4014, device='cuda:0')
+#################################################################################################
+width: tensor(-10350370., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape6.png
+height: tensor(-5409073.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(4998.3394, device='cuda:0') tensor(-2838.5217, device='cuda:0') tensor(-7969.4844, device='cuda:0') tensor(14416.0557, device='cuda:0')
+#################################################################################################
+width: tensor(-15301410., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape4.png
+height: tensor(15569340., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(3793.8035, device='cuda:0') tensor(-1133.3246, device='cuda:0') tensor(-4518.0176, device='cuda:0') tensor(-10476.8506, device='cuda:0')
+#################################################################################################
+width: tensor(-8674594., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape9.png
+height: tensor(-11314999., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(1263.5087, device='cuda:0') tensor(4879.0889, device='cuda:0') tensor(-6712.0522, device='cuda:0') tensor(-167.1114, device='cuda:0')
+#################################################################################################
+width: tensor(-12887140., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape11.png
+height: tensor(-180480.3281, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape11.png
+#################################################################################################
+x,y,w,h:  tensor(665.5091, device='cuda:0') tensor(2685.0347, device='cuda:0') tensor(991.7169, device='cuda:0') tensor(-11490.4902, device='cuda:0')
+#################################################################################################
+height: tensor(-12409729., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape8.png
+width: tensor(1904096.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(2817.6648, device='cuda:0') tensor(3037.9031, device='cuda:0') tensor(2723.7029, device='cuda:0') tensor(-10699.6641, device='cuda:0')
+#################################################################################################
+height: tensor(-11555637., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape1.png
+width: tensor(5229509.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(7729.6812, device='cuda:0') tensor(-2696.1206, device='cuda:0') tensor(-5921.2646, device='cuda:0') tensor(-8739.6787, device='cuda:0')
+#################################################################################################
+width: tensor(-11368828., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape5.png
+height: tensor(-9438853., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(-2760.7615, device='cuda:0') tensor(971.6517, device='cuda:0') tensor(-12096.8945, device='cuda:0') tensor(-4350.4370, device='cuda:0')
+#################################################################################################
+width: tensor(-23226038., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape10.png
+height: tensor(-4698472., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide8_Shape10.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(3270.7444, device='cuda:0') tensor(-539.0473, device='cuda:0') tensor(-7377.7168, device='cuda:0') tensor(3504.6792, device='cuda:0')
+#################################################################################################
+width: tensor(-14165216., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape3.png
+height: tensor(3785053.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(474.4700, device='cuda:0') tensor(493.6791, device='cuda:0') tensor(-1444.9851, device='cuda:0') tensor(-5598.7734, device='cuda:0')
+#################################################################################################
+width: tensor(-2774371.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape5.png
+height: tensor(-6046675.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(1008.1664, device='cuda:0') tensor(1555.9973, device='cuda:0') tensor(1246.1813, device='cuda:0') tensor(-9616.0449, device='cuda:0')
+#################################################################################################
+height: tensor(-10385329., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape8.png
+width: tensor(2392668., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(4365.3315, device='cuda:0') tensor(-1824.9548, device='cuda:0') tensor(-7213.3066, device='cuda:0') tensor(-5199.6035, device='cuda:0')
+#################################################################################################
+width: tensor(-13849549., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape2.png
+height: tensor(-5615572., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(-893.2779, device='cuda:0') tensor(3216.1572, device='cuda:0') tensor(-10923.4697, device='cuda:0') tensor(-4849.1001, device='cuda:0')
+#################################################################################################
+width: tensor(-20973062., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape7.png
+height: tensor(-5237028., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(2103.5498, device='cuda:0') tensor(-497.0276, device='cuda:0') tensor(-12066.7451, device='cuda:0') tensor(1963.5471, device='cuda:0')
+#################################################################################################
+width: tensor(-23168150., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape1.png
+height: tensor(2120631., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(-4095.8054, device='cuda:0') tensor(-5261.9619, device='cuda:0') tensor(-2577.9380, device='cuda:0') tensor(-7498.8682, device='cuda:0')
+#################################################################################################
+width: tensor(-4949641., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape9.png
+height: tensor(-8098777.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(6520.3472, device='cuda:0') tensor(1791.7902, device='cuda:0') tensor(-2216.2598, device='cuda:0') tensor(1892.1442, device='cuda:0')
+#################################################################################################
+width: tensor(-4255219., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape4.png
+height: tensor(2043515.7500, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-3328.5154, device='cuda:0') tensor(3006.8562, device='cuda:0') tensor(-7691.6436, device='cuda:0') tensor(-4577.3384, device='cuda:0')
+#################################################################################################
+width: tensor(-14767956., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape6.png
+height: tensor(-4943525.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide9_Shape6.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(3602.2688, device='cuda:0') tensor(1412.4341, device='cuda:0') tensor(-6494.7397, device='cuda:0') tensor(836.4248, device='cuda:0')
+#################################################################################################
+width: tensor(-12469900., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape3.png
+height: tensor(903338.8125, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(1155.9448, device='cuda:0') tensor(-985.5721, device='cuda:0') tensor(-4187.6641, device='cuda:0') tensor(-11359.8965, device='cuda:0')
+#################################################################################################
+width: tensor(-8040315., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape4.png
+height: tensor(-12268688., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-1574.8163, device='cuda:0') tensor(8730.5547, device='cuda:0') tensor(-4495.9717, device='cuda:0') tensor(-270.6093, device='cuda:0')
+#################################################################################################
+width: tensor(-8632266., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape1.png
+height: tensor(-292258.0312, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(66.3291, device='cuda:0') tensor(3306.1018, device='cuda:0') tensor(-3432.1350, device='cuda:0') tensor(4046.6228, device='cuda:0')
+#################################################################################################
+width: tensor(-6589699., device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape2.png
+height: tensor(4370352.5000, device='cuda:0')
+Aesthetic Fashion Collection Presentation/Slide10_Shape2.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(1542.7839, device='cuda:0') tensor(295.2932, device='cuda:0') tensor(-5958.6450, device='cuda:0') tensor(8464.7568, device='cuda:0')
+#################################################################################################
+width: tensor(-11440598., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape1.png
+height: tensor(9141937., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(3896.3413, device='cuda:0') tensor(-6071.9004, device='cuda:0') tensor(-3014.2803, device='cuda:0') tensor(-2435.7239, device='cuda:0')
+#################################################################################################
+width: tensor(-5787418., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape4.png
+height: tensor(-2630581.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-4753.8804, device='cuda:0') tensor(-19.2982, device='cuda:0') tensor(-15213.9756, device='cuda:0') tensor(3301.9275, device='cuda:0')
+#################################################################################################
+width: tensor(-29210834., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape10.png
+height: tensor(3566081.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape10.png
+#################################################################################################
+x,y,w,h:  tensor(238.8532, device='cuda:0') tensor(-2619.3987, device='cuda:0') tensor(-1303.7682, device='cuda:0') tensor(1376.3326, device='cuda:0')
+#################################################################################################
+width: tensor(-2503235., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape7.png
+height: tensor(1486439.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(502.9130, device='cuda:0') tensor(1094.0388, device='cuda:0') tensor(-6977.6504, device='cuda:0') tensor(3849.0898, device='cuda:0')
+#################################################################################################
+width: tensor(-13397089., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape9.png
+height: tensor(4157017., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(-1626.2196, device='cuda:0') tensor(-5602.7300, device='cuda:0') tensor(-7277.1079, device='cuda:0') tensor(-9403.4385, device='cuda:0')
+#################################################################################################
+width: tensor(-13972047., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape3.png
+height: tensor(-10155714., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(1391.0005, device='cuda:0') tensor(-2078.1592, device='cuda:0') tensor(1032.1471, device='cuda:0') tensor(-3388.6350, device='cuda:0')
+#################################################################################################
+height: tensor(-3659725.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape2.png
+width: tensor(1981722.3750, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(-648.3984, device='cuda:0') tensor(-1953.7820, device='cuda:0') tensor(-13739.5918, device='cuda:0') tensor(7722.5205, device='cuda:0')
+#################################################################################################
+width: tensor(-26380016., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape6.png
+height: tensor(8340322., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(12366.9170, device='cuda:0') tensor(10895.9619, device='cuda:0') tensor(-227.1295, device='cuda:0') tensor(965.0541, device='cuda:0')
+#################################################################################################
+width: tensor(-436088.6562, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape8.png
+height: tensor(1042258.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(-175.9426, device='cuda:0') tensor(1603.2880, device='cuda:0') tensor(-3339.5959, device='cuda:0') tensor(-5073.4893, device='cuda:0')
+#################################################################################################
+width: tensor(-6412024., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape5.png
+height: tensor(-5479368.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide1_Shape5.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(1521.1851, device='cuda:0') tensor(3978.4241, device='cuda:0') tensor(-4951.4756, device='cuda:0') tensor(-5313.0723, device='cuda:0')
+#################################################################################################
+width: tensor(-9506833., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape7.png
+height: tensor(-5738118., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(802.3148, device='cuda:0') tensor(-2424.8464, device='cuda:0') tensor(-8345.3799, device='cuda:0') tensor(1574.2535, device='cuda:0')
+#################################################################################################
+width: tensor(-16023129., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape1.png
+height: tensor(1700193.8750, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(2356.2937, device='cuda:0') tensor(-3149.3430, device='cuda:0') tensor(-16732.8965, device='cuda:0') tensor(1420.5400, device='cuda:0')
+#################################################################################################
+width: tensor(-32127162., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape5.png
+height: tensor(1534183.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(-1133.2456, device='cuda:0') tensor(-688.6057, device='cuda:0') tensor(-11848.3145, device='cuda:0') tensor(-10697.5352, device='cuda:0')
+#################################################################################################
+width: tensor(-22748764., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape9.png
+height: tensor(-11553338., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(1232.0680, device='cuda:0') tensor(552.3435, device='cuda:0') tensor(-2040.3896, device='cuda:0') tensor(-5884.7983, device='cuda:0')
+#################################################################################################
+width: tensor(-3917548., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape6.png
+height: tensor(-6355582., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(4131.4683, device='cuda:0') tensor(-9627.8838, device='cuda:0') tensor(315.0740, device='cuda:0') tensor(2534.1003, device='cuda:0')
+#################################################################################################
+width: tensor(604942., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape8.png
+height: tensor(2736828.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(-5759.5015, device='cuda:0') tensor(1581.8578, device='cuda:0') tensor(-4185.7905, device='cuda:0') tensor(-1801.9089, device='cuda:0')
+#################################################################################################
+width: tensor(-8036718., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape10.png
+height: tensor(-1946061.6250, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape10.png
+#################################################################################################
+x,y,w,h:  tensor(-326.2602, device='cuda:0') tensor(3129.4058, device='cuda:0') tensor(-1760.7939, device='cuda:0') tensor(-4082.6902, device='cuda:0')
+#################################################################################################
+width: tensor(-3380724.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape4.png
+height: tensor(-4409305.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-748.5733, device='cuda:0') tensor(767.4562, device='cuda:0') tensor(-6465.5122, device='cuda:0') tensor(-12040.6465, device='cuda:0')
+#################################################################################################
+width: tensor(-12413783., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape3.png
+height: tensor(-13003898., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(-6272.5806, device='cuda:0') tensor(-2331.6340, device='cuda:0') tensor(3567.1895, device='cuda:0') tensor(-2326.6089, device='cuda:0')
+#################################################################################################
+height: tensor(-2512737.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape2.png
+width: tensor(6849004., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide2_Shape2.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(5209.6724, device='cuda:0') tensor(7332.0103, device='cuda:0') tensor(-11366.6465, device='cuda:0') tensor(-3814.6035, device='cuda:0')
+#################################################################################################
+width: tensor(-21823962., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape5.png
+height: tensor(-4119771.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(564.6810, device='cuda:0') tensor(3302.8677, device='cuda:0') tensor(-14388.3164, device='cuda:0') tensor(3104.0276, device='cuda:0')
+#################################################################################################
+width: tensor(-27625568., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape10.png
+height: tensor(3352349.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape10.png
+#################################################################################################
+x,y,w,h:  tensor(1168.7640, device='cuda:0') tensor(1447.2478, device='cuda:0') tensor(-19048.8789, device='cuda:0') tensor(-4518.3599, device='cuda:0')
+#################################################################################################
+width: tensor(-36573848., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape2.png
+height: tensor(-4879828.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(607.7225, device='cuda:0') tensor(3496.1685, device='cuda:0') tensor(3400.0515, device='cuda:0') tensor(-5132.7466, device='cuda:0')
+#################################################################################################
+height: tensor(-5543366.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape8.png
+width: tensor(6528099., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(-4605.8125, device='cuda:0') tensor(10937.7422, device='cuda:0') tensor(-10553.2100, device='cuda:0') tensor(-1574.6351, device='cuda:0')
+#################################################################################################
+width: tensor(-20262164., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape3.png
+height: tensor(-1700606., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(12099.2744, device='cuda:0') tensor(2679.7595, device='cuda:0') tensor(-4219.9038, device='cuda:0') tensor(-6244.5762, device='cuda:0')
+#################################################################################################
+width: tensor(-8102215.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape9.png
+height: tensor(-6744142.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(5626.5181, device='cuda:0') tensor(4393.3818, device='cuda:0') tensor(14700.5557, device='cuda:0') tensor(-8961.6934, device='cuda:0')
+#################################################################################################
+height: tensor(-9678629., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape7.png
+width: tensor(28225066., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(-270.5496, device='cuda:0') tensor(3999.9712, device='cuda:0') tensor(-1330.8424, device='cuda:0') tensor(-2601.7871, device='cuda:0')
+#################################################################################################
+width: tensor(-2555217.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape4.png
+height: tensor(-2809930., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(8098.0356, device='cuda:0') tensor(-1833.1829, device='cuda:0') tensor(-6954.2183, device='cuda:0') tensor(-3675.8103, device='cuda:0')
+#################################################################################################
+width: tensor(-13352099., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape1.png
+height: tensor(-3969875.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(117.2942, device='cuda:0') tensor(2806.3655, device='cuda:0') tensor(-15951.6104, device='cuda:0') tensor(-7191.2559, device='cuda:0')
+#################################################################################################
+width: tensor(-30627092., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape6.png
+height: tensor(-7766556.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(-1700.9313, device='cuda:0') tensor(5318.8037, device='cuda:0') tensor(2592.7288, device='cuda:0') tensor(4572.6533, device='cuda:0')
+#################################################################################################
+width: tensor(4978039., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape11.png
+height: tensor(4938465.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide3_Shape11.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-4172.7256, device='cuda:0') tensor(2942.0808, device='cuda:0') tensor(-5204.5024, device='cuda:0') tensor(-2219.3081, device='cuda:0')
+#################################################################################################
+width: tensor(-9992645., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape1.png
+height: tensor(-2396852.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(-869.1077, device='cuda:0') tensor(2891.5461, device='cuda:0') tensor(-7003.2637, device='cuda:0') tensor(-9343.8477, device='cuda:0')
+#################################################################################################
+width: tensor(-13446266., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape7.png
+height: tensor(-10091355., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(1317.9678, device='cuda:0') tensor(-605.3958, device='cuda:0') tensor(-8761.7500, device='cuda:0') tensor(-5577.7871, device='cuda:0')
+#################################################################################################
+width: tensor(-16822560., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape3.png
+height: tensor(-6024010., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(2635.7173, device='cuda:0') tensor(-1319.1829, device='cuda:0') tensor(-7847.7778, device='cuda:0') tensor(-9733.5938, device='cuda:0')
+#################################################################################################
+width: tensor(-15067733., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape5.png
+height: tensor(-10512281., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(-4688.5938, device='cuda:0') tensor(4360.5684, device='cuda:0') tensor(-12514.9492, device='cuda:0') tensor(1925.4950, device='cuda:0')
+#################################################################################################
+width: tensor(-24028702., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape9.png
+height: tensor(2079534.6250, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(714.4576, device='cuda:0') tensor(573.4167, device='cuda:0') tensor(5159.0073, device='cuda:0') tensor(11055.4268, device='cuda:0')
+#################################################################################################
+width: tensor(9905294., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape8.png
+height: tensor(11939861., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(967.9093, device='cuda:0') tensor(1192.7761, device='cuda:0') tensor(-4971.3013, device='cuda:0') tensor(-7476.1870, device='cuda:0')
+#################################################################################################
+width: tensor(-9544898., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape2.png
+height: tensor(-8074282., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(-2515.4631, device='cuda:0') tensor(197.7697, device='cuda:0') tensor(-7898.9507, device='cuda:0') tensor(-790.2084, device='cuda:0')
+#################################################################################################
+width: tensor(-15165985., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape6.png
+height: tensor(-853425.1250, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(1871.0551, device='cuda:0') tensor(4104.3848, device='cuda:0') tensor(3130.3887, device='cuda:0') tensor(7879.8589, device='cuda:0')
+#################################################################################################
+width: tensor(6010346., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape4.png
+height: tensor(8510248., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide4_Shape4.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-4989.0264, device='cuda:0') tensor(-1704.1729, device='cuda:0') tensor(-6702.6484, device='cuda:0') tensor(-2069.1765, device='cuda:0')
+#################################################################################################
+width: tensor(-12869085., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape10.png
+height: tensor(-2234710.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape10.png
+#################################################################################################
+x,y,w,h:  tensor(4670.5815, device='cuda:0') tensor(4473.8760, device='cuda:0') tensor(-12695.9180, device='cuda:0') tensor(-2927.3638, device='cuda:0')
+#################################################################################################
+width: tensor(-24376162., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape1.png
+height: tensor(-3161552.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(1771.6235, device='cuda:0') tensor(763.5338, device='cuda:0') tensor(-9068.4775, device='cuda:0') tensor(10244.4814, device='cuda:0')
+#################################################################################################
+width: tensor(-17411476., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape2.png
+height: tensor(11064040., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(-458.7289, device='cuda:0') tensor(-158.1048, device='cuda:0') tensor(-9349.4492, device='cuda:0') tensor(-4035.4583, device='cuda:0')
+#################################################################################################
+width: tensor(-17950942., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape7.png
+height: tensor(-4358295., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(849.5659, device='cuda:0') tensor(2703.1201, device='cuda:0') tensor(-3468.2544, device='cuda:0') tensor(-4324.7593, device='cuda:0')
+#################################################################################################
+width: tensor(-6659048.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape9.png
+height: tensor(-4670740., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(-1393.8573, device='cuda:0') tensor(1522.2834, device='cuda:0') tensor(-1872.5656, device='cuda:0') tensor(2444.6382, device='cuda:0')
+#################################################################################################
+width: tensor(-3595325.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape8.png
+height: tensor(2640209.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(358.3552, device='cuda:0') tensor(2506.7908, device='cuda:0') tensor(1092.1160, device='cuda:0') tensor(-9074.3887, device='cuda:0')
+#################################################################################################
+height: tensor(-9800340., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape6.png
+width: tensor(2096862.6250, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(-1206.5482, device='cuda:0') tensor(-411.5490, device='cuda:0') tensor(-1934.0494, device='cuda:0') tensor(-8123.2905, device='cuda:0')
+#################################################################################################
+width: tensor(-3713375., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape11.png
+height: tensor(-8773154., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape11.png
+#################################################################################################
+x,y,w,h:  tensor(5158.8540, device='cuda:0') tensor(1827.9124, device='cuda:0') tensor(4174.2847, device='cuda:0') tensor(-4753.3018, device='cuda:0')
+#################################################################################################
+height: tensor(-5133566., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape4.png
+width: tensor(8014626.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(739.6248, device='cuda:0') tensor(506.3269, device='cuda:0') tensor(-5725.8530, device='cuda:0') tensor(3362.5029, device='cuda:0')
+#################################################################################################
+width: tensor(-10993638., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape12.png
+height: tensor(3631503.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape12.png
+#################################################################################################
+x,y,w,h:  tensor(-4589.3218, device='cuda:0') tensor(1925.4967, device='cuda:0') tensor(-425.6158, device='cuda:0') tensor(9247.1465, device='cuda:0')
+#################################################################################################
+width: tensor(-817182.3750, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape5.png
+height: tensor(9986918., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(5523.5386, device='cuda:0') tensor(-1976.8853, device='cuda:0') tensor(-2228.7646, device='cuda:0') tensor(170.9895, device='cuda:0')
+#################################################################################################
+width: tensor(-4279228., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape3.png
+height: tensor(184668.6562, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide5_Shape3.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(3257.5491, device='cuda:0') tensor(3442.7720, device='cuda:0') tensor(-1613.3143, device='cuda:0') tensor(-9438.7988, device='cuda:0')
+#################################################################################################
+width: tensor(-3097563.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape5.png
+height: tensor(-10193903., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(-1579.6050, device='cuda:0') tensor(2612.5364, device='cuda:0') tensor(-4582.7412, device='cuda:0') tensor(2955.9368, device='cuda:0')
+#################################################################################################
+width: tensor(-8798863., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape13.png
+height: tensor(3192411.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape13.png
+#################################################################################################
+x,y,w,h:  tensor(-1425.6879, device='cuda:0') tensor(-1653.7039, device='cuda:0') tensor(-12819.0264, device='cuda:0') tensor(2072.2366, device='cuda:0')
+#################################################################################################
+width: tensor(-24612530., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape10.png
+height: tensor(2238015.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape10.png
+#################################################################################################
+x,y,w,h:  tensor(-1710.8817, device='cuda:0') tensor(1244.5138, device='cuda:0') tensor(-897.7995, device='cuda:0') tensor(4813.1470, device='cuda:0')
+#################################################################################################
+width: tensor(-1723775., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape11.png
+height: tensor(5198198.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape11.png
+#################################################################################################
+x,y,w,h:  tensor(-2108.4094, device='cuda:0') tensor(4532.7793, device='cuda:0') tensor(-2958.0613, device='cuda:0') tensor(882.5882, device='cuda:0')
+#################################################################################################
+width: tensor(-5679477.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape4.png
+height: tensor(953195.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(404.0485, device='cuda:0') tensor(2774.5159, device='cuda:0') tensor(-2940.2771, device='cuda:0') tensor(-7526.0288, device='cuda:0')
+#################################################################################################
+width: tensor(-5645332., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape6.png
+height: tensor(-8128111., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(6382.9185, device='cuda:0') tensor(49.6209, device='cuda:0') tensor(-9033.1533, device='cuda:0') tensor(-16964.7812, device='cuda:0')
+#################################################################################################
+width: tensor(-17343654., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape7.png
+height: tensor(-18321964., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(666.5805, device='cuda:0') tensor(-5123.9746, device='cuda:0') tensor(-1539.1313, device='cuda:0') tensor(-6570.4458, device='cuda:0')
+#################################################################################################
+width: tensor(-2955132.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape14.png
+height: tensor(-7096081.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape14.png
+#################################################################################################
+x,y,w,h:  tensor(-3502.7097, device='cuda:0') tensor(1632.7068, device='cuda:0') tensor(-10400.8662, device='cuda:0') tensor(-3457.8552, device='cuda:0')
+#################################################################################################
+width: tensor(-19969664., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape15.png
+height: tensor(-3734483.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape15.png
+#################################################################################################
+x,y,w,h:  tensor(3856.9668, device='cuda:0') tensor(2279.5103, device='cuda:0') tensor(-9714.7334, device='cuda:0') tensor(-10178.3506, device='cuda:0')
+#################################################################################################
+width: tensor(-18652288., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape12.png
+height: tensor(-10992619., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape12.png
+#################################################################################################
+x,y,w,h:  tensor(3945.1143, device='cuda:0') tensor(3338.6294, device='cuda:0') tensor(-15316.6309, device='cuda:0') tensor(-1865.9519, device='cuda:0')
+#################################################################################################
+width: tensor(-29407932., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape1.png
+height: tensor(-2015228., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape1.png
+#################################################################################################
+x,y,w,h:  tensor(3331.7791, device='cuda:0') tensor(1754.3877, device='cuda:0') tensor(-9768.0020, device='cuda:0') tensor(1365.4858, device='cuda:0')
+#################################################################################################
+width: tensor(-18754564., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape2.png
+height: tensor(1474724.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape2.png
+#################################################################################################
+x,y,w,h:  tensor(-1116.3560, device='cuda:0') tensor(-1248.7582, device='cuda:0') tensor(-6386.2959, device='cuda:0') tensor(3717.8406, device='cuda:0')
+#################################################################################################
+width: tensor(-12261688., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape8.png
+height: tensor(4015267.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(-1730.6635, device='cuda:0') tensor(7948.3784, device='cuda:0') tensor(-20271.0410, device='cuda:0') tensor(-4623.9316, device='cuda:0')
+#################################################################################################
+width: tensor(-38920400., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape9.png
+height: tensor(-4993846., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape9.png
+#################################################################################################
+x,y,w,h:  tensor(-149.4169, device='cuda:0') tensor(-5418.9375, device='cuda:0') tensor(-12758.9775, device='cuda:0') tensor(-667.6168, device='cuda:0')
+#################################################################################################
+width: tensor(-24497236., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape3.png
+height: tensor(-721026.1250, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide6_Shape3.png
+The background image is not RGBA
+#################################################################################################
+x,y,w,h:  tensor(-1922.5471, device='cuda:0') tensor(3434.4187, device='cuda:0') tensor(4955.3398, device='cuda:0') tensor(1855.8864, device='cuda:0')
+#################################################################################################
+width: tensor(9514252., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape8.png
+height: tensor(2004357.2500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape8.png
+#################################################################################################
+x,y,w,h:  tensor(766.9519, device='cuda:0') tensor(3929.1016, device='cuda:0') tensor(-1190.3364, device='cuda:0') tensor(1698.2156, device='cuda:0')
+#################################################################################################
+width: tensor(-2285446., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape7.png
+height: tensor(1834072.8750, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape7.png
+#################################################################################################
+x,y,w,h:  tensor(483.0789, device='cuda:0') tensor(3641.5869, device='cuda:0') tensor(-11363.1240, device='cuda:0') tensor(-5680.6494, device='cuda:0')
+#################################################################################################
+width: tensor(-21817198., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape10.png
+height: tensor(-6135101.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape10.png
+#################################################################################################
+x,y,w,h:  tensor(5417.8120, device='cuda:0') tensor(1913.2887, device='cuda:0') tensor(149.7371, device='cuda:0') tensor(-8851.3125, device='cuda:0')
+#################################################################################################
+height: tensor(-9559418., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape12.png
+width: tensor(287495.1875, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape12.png
+#################################################################################################
+x,y,w,h:  tensor(-602.9685, device='cuda:0') tensor(813.1244, device='cuda:0') tensor(-89.7911, device='cuda:0') tensor(222.9171, device='cuda:0')
+#################################################################################################
+width: tensor(-172398.9844, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape4.png
+height: tensor(240750.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape4.png
+#################################################################################################
+x,y,w,h:  tensor(-1464.5983, device='cuda:0') tensor(78.4768, device='cuda:0') tensor(-17038.5117, device='cuda:0') tensor(77.8036, device='cuda:0')
+#################################################################################################
+width: tensor(-32713942., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape3.png
+height: tensor(84027.8594, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape3.png
+#################################################################################################
+x,y,w,h:  tensor(1180.6808, device='cuda:0') tensor(3364.3403, device='cuda:0') tensor(-10664.3701, device='cuda:0') tensor(-1628.9926, device='cuda:0')
+#################################################################################################
+width: tensor(-20475590., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape13.png
+height: tensor(-1759312., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape13.png
+#################################################################################################
+x,y,w,h:  tensor(4511.9341, device='cuda:0') tensor(2182.0925, device='cuda:0') tensor(14997.5303, device='cuda:0') tensor(-2993.3091, device='cuda:0')
+#################################################################################################
+height: tensor(-3232773.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape6.png
+width: tensor(28795258., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape6.png
+#################################################################################################
+x,y,w,h:  tensor(-2678.1338, device='cuda:0') tensor(223.7798, device='cuda:0') tensor(-17464.3867, device='cuda:0') tensor(-2552.8025, device='cuda:0')
+#################################################################################################
+width: tensor(-33531622., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape5.png
+height: tensor(-2757026.7500, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape5.png
+#################################################################################################
+x,y,w,h:  tensor(3370.1238, device='cuda:0') tensor(2831.1619, device='cuda:0') tensor(-3813.7043, device='cuda:0') tensor(-6336.1094, device='cuda:0')
+#################################################################################################
+width: tensor(-7322312.5000, device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape18.png
+height: tensor(-6842998., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape18.png
+#################################################################################################
+x,y,w,h:  tensor(438.9269, device='cuda:0') tensor(-1269.4518, device='cuda:0') tensor(-3065.0339, device='cuda:0') tensor(1546.9042, device='cuda:0')
+#################################################################################################
+width: tensor(-5884865., device='cuda:0')
+Beige and Green Minimal Modern Fashion Presentation/Slide7_Shape2.png
+height: tensor(1670656.5000, device='cuda:0')
+  0%|                                                                                                                                                                                                                               | 0/11 [00:31<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/inference.py", line 144, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/inference.py", line 105, in main
+    collage = create_collage(true_geometry, id, geometry, canvas_size, base_path, config.scaling_size, config.mean_0)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/visualize.py", line 86, in create_collage
+    mask = img.split()[3]
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/PIL/Image.py", line 2514, in split
+    ims = map(self._new, self.im.split())
+KeyboardInterrupt

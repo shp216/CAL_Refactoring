@@ -1,0 +1,26 @@
+
+
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:20<00:00, 66.62it/s, loss=1.65, lr=2.08e-6, step=104]I0227 17:02:24.411970 139809721046144 cal_trainer.py:587] Epoch 0, Avg Validation Loss: 1.751517122442072, Avg Mean IoU: 0.025510145351290703
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:36<00:00,  2.83it/s, loss=1.65, lr=2.08e-6, step=104]
+Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:01<00:00, 67.66it/s, loss=0.742, lr=4.16e-6, step=208]I0227 17:02:26.352064 139809721046144 cal_trainer.py:587] Epoch 1, Avg Validation Loss: 0.7413575107401068, Avg Mean IoU: 0.06867756694555283
+Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:01<00:00, 54.00it/s, loss=0.742, lr=4.16e-6, step=208]
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:01<00:00, 66.41it/s, loss=0.431, lr=6.24e-6, step=312]I0227 17:02:28.289182 139809721046144 cal_trainer.py:587] Epoch 2, Avg Validation Loss: 0.44287835467945447, Avg Mean IoU: 0.10138209909200668
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:01<00:00, 54.08it/s, loss=0.431, lr=6.24e-6, step=312]
+Epoch 3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:01<00:00, 66.88it/s, loss=0.363, lr=8.32e-6, step=416]I0227 17:02:30.238404 139809721046144 cal_trainer.py:587] Epoch 3, Avg Validation Loss: 0.4391847442496907, Avg Mean IoU: 0.112747423350811
+Epoch 3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:01<00:00, 53.76it/s, loss=0.363, lr=8.32e-6, step=416]
+Epoch 4:   7%|█████████                                                                                                                              | 7/104 [00:00<00:12,  7.70it/s, loss=0.464, lr=8.46e-6, step=423]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/main.py", line 104, in <module>
+    app.run(main)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/main.py", line 76, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/trainers/cal_trainer.py", line 179, in train
+    self.CAL_train_epsilon(epoch)
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/trainers/cal_trainer.py", line 444, in CAL_train_epsilon
+    train_ious.append(get_iou(true_box, pred_box))
+  File "/home/sehwan/MIIL/CA-layout-generation/dlt/evaluation/iou.py", line 91, in get_iou
+    intersection_area = torch.maximum(torch.zeros_like(x_min), x_max - x_min) * torch.maximum(torch.zeros_like(y_min), y_max - y_min)
+KeyboardInterrupt

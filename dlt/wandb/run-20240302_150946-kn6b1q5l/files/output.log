@@ -1,0 +1,44 @@
+Epoch 0:   0%|                                                                                                                                                                                                                     | 0/104 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 181, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 54, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 129, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 147, in CAL_train
+    for step, (batch, ids) in enumerate(self.train_dataloader):
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/accelerate/data_loader.py", line 462, in __iter__
+    next_batch = next(dataloader_iter)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1326, in _next_data
+    return self._process_data(data)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1372, in _process_data
+    data.reraise()
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/_utils.py", line 722, in reraise
+    raise exception
+ValueError: Caught ValueError in DataLoader worker process 1.
+Original Traceback (most recent call last):
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/data_loaders/canva.py", line 168, in __getitem__
+    sample = self.process_data(idx)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/data_loaders/canva.py", line 132, in process_data
+    geometry = self.pad_instance(geometry)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/data_loaders/canva.py", line 114, in pad_instance
+    padded_geometry = np.pad(geometry, pad_width=((0,self.max_num_element - np.array(geometry).shape[0]), (0, 0)), constant_values=0.)
+  File "<__array_function__ internals>", line 200, in pad
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/numpy/lib/arraypad.py", line 744, in pad
+    pad_width = _as_pairs(pad_width, array.ndim, as_index=True)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/numpy/lib/arraypad.py", line 518, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+  File "<__array_function__ internals>", line 200, in broadcast_to
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/numpy/lib/stride_tricks.py", line 413, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/numpy/lib/stride_tricks.py", line 349, in _broadcast_to
+    it = np.nditer(
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (2,2)  and requested shape (1,2)

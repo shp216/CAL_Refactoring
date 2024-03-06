@@ -1,0 +1,12 @@
+
+
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:02<00:00, 50.46it/s, loss=4.49, lr=2.08e-6, step=104]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 181, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 54, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 129, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 251, in CAL_train
+    train_pred_geometry_refine = refinement_from_model(batch, self.model, device, self.diffusion, geometry_scale, self.diffusion_mode, self.image_pred_ox)
+TypeError: refinement_from_model() takes 6 positional arguments but 7 were given

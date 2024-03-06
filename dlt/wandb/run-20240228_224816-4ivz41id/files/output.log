@@ -1,0 +1,20 @@
+
+
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:02<00:00, 51.07it/s, loss=4.7, lr=2.08e-6, step=104]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 164, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 48, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 126, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 301, in CAL_train
+    val_pred_geometry = self.diffusion.add_noise_Geometry(val_batch['geometry'], t, val_model_predict[:,:,:6])*val_batch['padding_mask']
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/diffusion.py", line 183, in add_noise_Geometry
+    noised_Geometry = super().add_noise(original_samples=Geometry, timesteps=timesteps, noise=noise)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/diffusers/schedulers/scheduling_ddpm.py", line 524, in add_noise
+    noisy_samples = sqrt_alpha_prod * original_samples + sqrt_one_minus_alpha_prod * noise
+RuntimeError: The size of tensor a (46) must match the size of tensor b (64) at non-singleton dimension 0
+###########################################################################################3
+val_batch:  torch.Size([64, 28, 6])
+predict:  torch.Size([64, 28, 6])
+###########################################################################################3

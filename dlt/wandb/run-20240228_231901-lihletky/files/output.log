@@ -1,0 +1,10 @@
+Epoch 0:   0%|                                                                                                                                                                                 | 0/104 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 165, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 49, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 126, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 190, in CAL_train
+    bbox_loss, r_loss, z_loss, img_feature_loss = masked_l2_rz(noise, model_predict, batch['padding_mask'], batch['padding_mask_img'], img_feature_noise, self.image_pred_ox, self.device) #masked_12를 사용하여 xywh만 loss 계산 가능, masked_l2_r는 r,z, r의 normalize loss를 포함
+TypeError: masked_l2_rz() takes 6 positional arguments but 7 were given

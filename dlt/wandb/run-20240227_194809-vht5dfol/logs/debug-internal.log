@@ -1,0 +1,187 @@
+2024-02-27 19:48:09,715 INFO    MainThread:28853 [internal.py:wandb_internal():86] W&B internal server running at pid: 28853, started at: 2024-02-27 19:48:09.715234
+2024-02-27 19:48:09,716 INFO    WriterThread:28853 [datastore.py:open_for_write():87] open: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/run-vht5dfol.wandb
+2024-02-27 19:48:09,716 DEBUG   SenderThread:28853 [sender.py:send():382] send: header
+2024-02-27 19:48:09,716 DEBUG   SenderThread:28853 [sender.py:send():382] send: run
+2024-02-27 19:48:10,657 INFO    SenderThread:28853 [dir_watcher.py:__init__():211] watching files in: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files
+2024-02-27 19:48:10,657 INFO    SenderThread:28853 [sender.py:_start_run_threads():1136] run started: vht5dfol with start time 1709030889.465988
+2024-02-27 19:48:10,672 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: check_version
+2024-02-27 19:48:10,673 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: check_version
+2024-02-27 19:48:10,731 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: run_start
+2024-02-27 19:48:10,753 DEBUG   HandlerThread:28853 [system_info.py:__init__():27] System info init
+2024-02-27 19:48:10,753 DEBUG   HandlerThread:28853 [system_info.py:__init__():42] System info init done
+2024-02-27 19:48:10,753 INFO    HandlerThread:28853 [system_monitor.py:start():194] Starting system monitor
+2024-02-27 19:48:10,753 INFO    SystemMonitor:28853 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-27 19:48:10,754 INFO    HandlerThread:28853 [system_monitor.py:probe():214] Collecting system info
+2024-02-27 19:48:10,754 INFO    SystemMonitor:28853 [interfaces.py:start():190] Started cpu monitoring
+2024-02-27 19:48:10,755 INFO    SystemMonitor:28853 [interfaces.py:start():190] Started disk monitoring
+2024-02-27 19:48:10,756 INFO    SystemMonitor:28853 [interfaces.py:start():190] Started gpu monitoring
+2024-02-27 19:48:10,758 INFO    SystemMonitor:28853 [interfaces.py:start():190] Started memory monitoring
+2024-02-27 19:48:10,761 INFO    SystemMonitor:28853 [interfaces.py:start():190] Started network monitoring
+2024-02-27 19:48:10,769 DEBUG   HandlerThread:28853 [system_info.py:probe():151] Probing system
+2024-02-27 19:48:10,772 DEBUG   HandlerThread:28853 [system_info.py:_probe_git():136] Probing git
+2024-02-27 19:48:10,778 DEBUG   HandlerThread:28853 [system_info.py:_probe_git():144] Probing git done
+2024-02-27 19:48:10,778 DEBUG   HandlerThread:28853 [system_info.py:probe():199] Probing system done
+2024-02-27 19:48:10,778 DEBUG   HandlerThread:28853 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-21-generic-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-02-27T10:48:10.769660', 'startedAt': '2024-02-27T10:48:09.421245', 'docker': None, 'cuda': None, 'args': ('--config', 'configs/remote/CAL_canva_config.py', '--workdir', 'test'), 'state': 'running', 'program': '/home/sehwan/MIIL/CA-layout-generation/dlt/main.py', 'codePathLocal': 'main.py', 'codePath': 'dlt/main.py', 'git': {'remote': 'https://github.com/DH1929ds/CA-layout-generation.git', 'commit': '1baff2da8c475e01fc2dbc82f6f6201566f6f18b'}, 'email': 'qkrtpghks1214@gmail.com', 'root': '/home/sehwan/MIIL/CA-layout-generation', 'host': 'sehwan--Ubuntu', 'username': 'sehwan', 'executable': '/home/sehwan/anaconda3/envs/CAL/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 1546.399083333333, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 2036.329, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 2082.6, 'min': 800.0, 'max': 5300.0}, {'current': 1816.616, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1858.279, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1905.23, 'min': 800.0, 'max': 5400.0}, {'current': 1919.924, 'min': 800.0, 'max': 5400.0}, {'current': 1865.402, 'min': 800.0, 'max': 5400.0}, {'current': 2030.699, 'min': 800.0, 'max': 5400.0}, {'current': 1846.05, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1850.568, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 1978.142, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 2651.311, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 457.3268280029297, 'used': 62.670711517333984}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.165733337402344}}
+2024-02-27 19:48:10,778 INFO    HandlerThread:28853 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-27 19:48:10,778 INFO    HandlerThread:28853 [system_monitor.py:probe():227] Publishing system info
+2024-02-27 19:48:10,778 DEBUG   HandlerThread:28853 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-27 19:48:11,658 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/conda-environment.yaml
+2024-02-27 19:48:11,803 DEBUG   HandlerThread:28853 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-27 19:48:11,804 INFO    HandlerThread:28853 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-27 19:48:11,805 DEBUG   SenderThread:28853 [sender.py:send():382] send: files
+2024-02-27 19:48:11,805 INFO    SenderThread:28853 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-27 19:48:11,807 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-27 19:48:11,807 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: python_packages
+2024-02-27 19:48:11,808 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-27 19:48:11,808 DEBUG   SenderThread:28853 [sender.py:send():382] send: telemetry
+2024-02-27 19:48:11,808 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: stop_status
+2024-02-27 19:48:11,809 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-27 19:48:12,657 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/conda-environment.yaml
+2024-02-27 19:48:12,658 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/requirements.txt
+2024-02-27 19:48:12,658 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/output.log
+2024-02-27 19:48:12,658 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/wandb-metadata.json
+2024-02-27 19:48:12,778 INFO    wandb-upload_0:28853 [upload_job.py:push():131] Uploaded file /tmp/tmpxm0kmk5pwandb/eta1p53g-wandb-metadata.json
+2024-02-27 19:48:14,658 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/output.log
+2024-02-27 19:48:15,183 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: status_report
+2024-02-27 19:48:16,659 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/output.log
+2024-02-27 19:48:18,648 DEBUG   SenderThread:28853 [sender.py:send():382] send: exit
+2024-02-27 19:48:18,648 INFO    SenderThread:28853 [sender.py:send_exit():589] handling exit code: 1
+2024-02-27 19:48:18,648 INFO    SenderThread:28853 [sender.py:send_exit():591] handling runtime: 7
+2024-02-27 19:48:18,649 INFO    SenderThread:28853 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-27 19:48:18,649 INFO    SenderThread:28853 [sender.py:send_exit():597] send defer
+2024-02-27 19:48:18,649 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,649 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-27 19:48:18,649 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,649 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-27 19:48:18,649 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 1
+2024-02-27 19:48:18,649 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,650 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-27 19:48:18,650 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,650 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-27 19:48:18,650 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 2
+2024-02-27 19:48:18,650 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,650 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-27 19:48:18,650 INFO    HandlerThread:28853 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-27 19:48:18,650 DEBUG   SystemMonitor:28853 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-27 19:48:18,650 INFO    HandlerThread:28853 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-27 19:48:18,650 DEBUG   SystemMonitor:28853 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-27 19:48:18,650 INFO    HandlerThread:28853 [interfaces.py:finish():202] Joined disk monitor
+2024-02-27 19:48:18,650 DEBUG   SystemMonitor:28853 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-27 19:48:18,659 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/wandb-summary.json
+2024-02-27 19:48:18,674 INFO    HandlerThread:28853 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-27 19:48:18,674 INFO    HandlerThread:28853 [interfaces.py:finish():202] Joined memory monitor
+2024-02-27 19:48:18,674 INFO    HandlerThread:28853 [interfaces.py:finish():202] Joined network monitor
+2024-02-27 19:48:18,674 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,674 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-27 19:48:18,674 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 3
+2024-02-27 19:48:18,675 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,675 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-27 19:48:18,675 DEBUG   SenderThread:28853 [sender.py:send():382] send: stats
+2024-02-27 19:48:18,675 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,675 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-27 19:48:18,675 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 4
+2024-02-27 19:48:18,675 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,675 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-27 19:48:18,675 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,675 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-27 19:48:18,675 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 5
+2024-02-27 19:48:18,675 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,675 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-27 19:48:18,675 DEBUG   SenderThread:28853 [sender.py:send():382] send: summary
+2024-02-27 19:48:18,675 INFO    SenderThread:28853 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-27 19:48:18,676 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,676 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-27 19:48:18,676 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 6
+2024-02-27 19:48:18,676 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,676 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-27 19:48:18,676 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,676 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-27 19:48:18,678 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: status_report
+2024-02-27 19:48:18,935 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 7
+2024-02-27 19:48:18,936 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:18,936 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-27 19:48:18,937 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:18,937 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-27 19:48:19,648 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-27 19:48:19,660 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/config.yaml
+2024-02-27 19:48:19,660 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/wandb-summary.json
+2024-02-27 19:48:20,605 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 8
+2024-02-27 19:48:20,605 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: poll_exit
+2024-02-27 19:48:20,606 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:20,606 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-27 19:48:20,606 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:20,606 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-27 19:48:20,606 INFO    SenderThread:28853 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-27 19:48:20,606 INFO    SenderThread:28853 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-27 19:48:20,615 INFO    SenderThread:28853 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-27 19:48:20,632 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 9
+2024-02-27 19:48:20,633 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:20,633 DEBUG   SenderThread:28853 [sender.py:send():382] send: artifact
+2024-02-27 19:48:20,633 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-27 19:48:20,648 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-27 19:48:20,660 INFO    Thread-7  :28853 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/output.log
+2024-02-27 19:48:22,016 INFO    SenderThread:28853 [sender.py:send_artifact():1494] sent artifact job-https___github.com_DH1929ds_CA-layout-generation.git_dlt_main.py - {'id': 'QXJ0aWZhY3Q6NzMzMjQ4OTMx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MjAxODA1Nw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzMzMjQ4OTMx', 'versionIndex': 4}}}
+2024-02-27 19:48:22,017 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:22,017 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-27 19:48:22,017 INFO    SenderThread:28853 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-27 19:48:22,662 INFO    SenderThread:28853 [dir_watcher.py:finish():388] scan: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files
+2024-02-27 19:48:22,662 INFO    SenderThread:28853 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/config.yaml config.yaml
+2024-02-27 19:48:22,663 INFO    SenderThread:28853 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/requirements.txt requirements.txt
+2024-02-27 19:48:22,663 INFO    SenderThread:28853 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/conda-environment.yaml conda-environment.yaml
+2024-02-27 19:48:22,663 INFO    SenderThread:28853 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/wandb-metadata.json wandb-metadata.json
+2024-02-27 19:48:22,663 INFO    SenderThread:28853 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/output.log output.log
+2024-02-27 19:48:22,663 INFO    SenderThread:28853 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/wandb-summary.json wandb-summary.json
+2024-02-27 19:48:22,663 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 10
+2024-02-27 19:48:22,664 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: poll_exit
+2024-02-27 19:48:22,670 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:22,670 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-27 19:48:22,679 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:22,682 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-27 19:48:22,682 INFO    SenderThread:28853 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-27 19:48:23,207 INFO    wandb-upload_2:28853 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/conda-environment.yaml
+2024-02-27 19:48:23,342 INFO    wandb-upload_1:28853 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/config.yaml
+2024-02-27 19:48:23,564 INFO    wandb-upload_0:28853 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/requirements.txt
+2024-02-27 19:48:23,565 INFO    wandb-upload_4:28853 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/wandb-summary.json
+2024-02-27 19:48:23,603 INFO    wandb-upload_3:28853 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/files/output.log
+2024-02-27 19:48:23,650 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-27 19:48:23,651 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: poll_exit
+2024-02-27 19:48:23,804 INFO    Thread-6  :28853 [sender.py:transition_state():617] send defer: 11
+2024-02-27 19:48:23,805 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:23,805 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-27 19:48:23,806 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:23,806 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-27 19:48:23,806 INFO    SenderThread:28853 [file_pusher.py:join():178] waiting for file pusher
+2024-02-27 19:48:23,806 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 12
+2024-02-27 19:48:23,807 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:23,807 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-27 19:48:23,807 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:23,807 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-27 19:48:23,807 INFO    SenderThread:28853 [file_stream.py:finish():595] file stream finish called
+2024-02-27 19:48:24,015 INFO    SenderThread:28853 [file_stream.py:finish():599] file stream finish is done
+2024-02-27 19:48:24,015 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 13
+2024-02-27 19:48:24,016 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:24,016 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-27 19:48:24,017 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:24,017 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-27 19:48:24,017 INFO    SenderThread:28853 [sender.py:transition_state():617] send defer: 14
+2024-02-27 19:48:24,018 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: defer
+2024-02-27 19:48:24,018 DEBUG   SenderThread:28853 [sender.py:send():382] send: final
+2024-02-27 19:48:24,018 INFO    HandlerThread:28853 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-27 19:48:24,018 DEBUG   SenderThread:28853 [sender.py:send():382] send: footer
+2024-02-27 19:48:24,018 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: defer
+2024-02-27 19:48:24,019 INFO    SenderThread:28853 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-27 19:48:24,020 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-27 19:48:24,020 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: poll_exit
+2024-02-27 19:48:24,022 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-27 19:48:24,023 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: server_info
+2024-02-27 19:48:24,023 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-27 19:48:24,023 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-27 19:48:24,023 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: job_info
+2024-02-27 19:48:24,024 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: server_info
+2024-02-27 19:48:24,218 DEBUG   SenderThread:28853 [sender.py:send_request():409] send_request: job_info
+2024-02-27 19:48:24,219 DEBUG   HandlerThread:28853 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-27 19:48:24,219 INFO    HandlerThread:28853 [handler.py:finish():869] shutting down handler
+2024-02-27 19:48:25,024 INFO    WriterThread:28853 [datastore.py:close():296] close: /home/sehwan/MIIL/CA-layout-generation/dlt/wandb/run-20240227_194809-vht5dfol/run-vht5dfol.wandb
+2024-02-27 19:48:25,219 INFO    SenderThread:28853 [sender.py:finish():1572] shutting down sender
+2024-02-27 19:48:25,219 INFO    SenderThread:28853 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-27 19:48:25,219 INFO    SenderThread:28853 [file_pusher.py:join():178] waiting for file pusher

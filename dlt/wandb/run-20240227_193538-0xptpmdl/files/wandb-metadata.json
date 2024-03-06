@@ -1,0 +1,173 @@
+{
+    "os": "Linux-6.5.0-21-generic-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-02-27T10:35:39.884885",
+    "startedAt": "2024-02-27T10:35:38.599818",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config",
+        "configs/remote/CAL_canva_config.py",
+        "--workdir",
+        "test"
+    ],
+    "state": "running",
+    "program": "/home/sehwan/MIIL/CA-layout-generation/dlt/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "dlt/main.py",
+    "git": {
+        "remote": "https://github.com/DH1929ds/CA-layout-generation.git",
+        "commit": "1baff2da8c475e01fc2dbc82f6f6201566f6f18b"
+    },
+    "email": "qkrtpghks1214@gmail.com",
+    "root": "/home/sehwan/MIIL/CA-layout-generation",
+    "host": "sehwan--Ubuntu",
+    "username": "sehwan",
+    "executable": "/home/sehwan/anaconda3/envs/CAL/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2419.7077916666667,
+        "min": 800.0,
+        "max": 4950.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 5229.669,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5045.04,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5292.312,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5279.948,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5289.168,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5225.659,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5155.968,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5206.992,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5195.95,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2797.328,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1129.369,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4192.679,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 457.3268280029297,
+            "used": 62.67013931274414
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 31.165733337402344
+    }
+}

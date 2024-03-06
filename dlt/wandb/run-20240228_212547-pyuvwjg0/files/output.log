@@ -1,0 +1,11 @@
+
+Epoch 0:   0%|                                                                                                                                                                                 | 0/104 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 164, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 48, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 126, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 279, in CAL_train
+    val_bbox_loss, val_r_loss, val_z_loss, val_img_feature_loss = masked_l2_rz(val_noise, val_predict_value, val_batch['padding_mask'], val_batch['padding_mask_img'], val_img_feature_noise,  self.image_predict_ox)
+AttributeError: 'TrainLoopCAL' object has no attribute 'image_predict_ox'

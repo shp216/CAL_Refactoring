@@ -1,0 +1,39 @@
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] Configure stats pid to 52620
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] Loading settings from /home/sehwan/.config/wandb/settings
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] Loading settings from /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/settings
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': True}
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py', 'program': '/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py'}
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] calling init triggers
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] wandb.init called with sweep_config: {}
+config: {}
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] calling init triggers
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_setup.py:_flush():76] wandb.init called with sweep_config: {}
+config: {'dataset_path': Path('dataset'), 'train_json': Path('dataset/train_canva.json'), 'train_clip_json': Path('dataset/train_clip.json'), 'val_json': Path('dataset/val_canva.json'), 'val_clip_json': Path('dataset/val_clip.json'), 'resume_from_checkpoint': None, 'dataset': 'canva', 'max_num_comp': 40, 'seed': 42, 'scaling_size': 1, 'z_scaling_size': 1, 'mean_0': False, 'is_cond': False, 'categories_num': 7, 'rz_ox': False, 'loss_weight': [1, 1, 1, 1.5], 'latent_dim': 512, 'num_layers': 4, 'num_heads': 8, 'dropout_r': 0.0, 'activation': 'gelu', 'cond_emb_size': 224, 'cls_emb_size': 64, 'num_cont_timesteps': 1000, 'beta_schedule': 'squaredcos_cap_v2', 'diffusion_mode': 'epsilon', 'log_interval': 1, 'save_interval': 50000, 'work_dir': 'test', 'log_dir': Path('logs/test'), 'ckpt_dir': 'logs/test/checkpoints', 'samples_dir': 'logs/test/samples', 'epoch': 2000, 'batch_size': 64, 'device': 'cuda'}
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_init.py:_log_setup():526] Logging user logs to /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240228_181525-9gubwnuw/logs/debug.log
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_init.py:_log_setup():527] Logging internal logs to /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240228_181525-9gubwnuw/logs/debug-internal.log
+2024-02-28 18:15:25,857 INFO    MainThread:52620 [wandb_init.py:init():566] calling init triggers
+2024-02-28 18:15:25,858 INFO    MainThread:52620 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'normalize interval': (-1, 1)}
+2024-02-28 18:15:25,858 INFO    MainThread:52620 [wandb_init.py:init():616] starting backend
+2024-02-28 18:15:25,858 INFO    MainThread:52620 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-28 18:15:25,882 INFO    MainThread:52620 [backend.py:ensure_launched():206] starting backend process...
+2024-02-28 18:15:25,900 INFO    MainThread:52620 [backend.py:ensure_launched():211] started backend process with pid: 52711
+2024-02-28 18:15:25,900 INFO    MainThread:52620 [wandb_init.py:init():628] backend started and connected
+2024-02-28 18:15:25,903 INFO    MainThread:52620 [wandb_init.py:init():720] updated telemetry
+2024-02-28 18:15:25,904 INFO    MainThread:52620 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-28 18:15:26,805 INFO    MainThread:52620 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-28 18:15:26,915 INFO    MainThread:52620 [wandb_run.py:_on_init():2271] got version response 
+2024-02-28 18:15:26,915 INFO    MainThread:52620 [wandb_init.py:init():804] starting run threads in backend
+2024-02-28 18:15:27,982 INFO    MainThread:52620 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-28 18:15:27,982 INFO    MainThread:52620 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-28 18:15:27,983 INFO    MainThread:52620 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-28 18:15:27,983 INFO    MainThread:52620 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-28 18:15:27,983 INFO    MainThread:52620 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-28 18:15:28,174 INFO    MainThread:52620 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 1
+2024-02-28 18:15:28,174 INFO    MainThread:52620 [wandb_run.py:_restore():2193] restore
+2024-02-28 18:15:28,174 INFO    MainThread:52620 [wandb_run.py:_restore():2199] restore done
+2024-02-28 18:15:33,824 INFO    MainThread:52620 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-28 18:15:33,824 INFO    MainThread:52620 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-28 18:15:33,826 INFO    MainThread:52620 [wandb_run.py:_footer_sync_info():3825] logging synced files

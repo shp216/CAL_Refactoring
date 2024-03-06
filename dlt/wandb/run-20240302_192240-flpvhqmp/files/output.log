@@ -1,0 +1,39 @@
+
+
+
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:04<00:00, 26.95it/s, loss=2.93, lr=2.08e-6, step=104]
+############################################################################################################
+step:  800
+batch:  tensor(47.4966, device='cuda:0') tensor(379.1876, device='cuda:0') tensor(-153.7193, device='cuda:0') tensor(-222.0735, device='cuda:0')
+############################################################################################################
+############################################################################################################
+step:  600
+batch:  tensor(90.2778, device='cuda:0') tensor(721.8093, device='cuda:0') tensor(-292.5511, device='cuda:0') tensor(-422.9022, device='cuda:0')
+############################################################################################################
+############################################################################################################
+step:  400
+batch:  tensor(124.3671, device='cuda:0') tensor(994.9015, device='cuda:0') tensor(-403.1537, device='cuda:0') tensor(-582.9565, device='cuda:0')
+############################################################################################################
+############################################################################################################
+step:  200
+batch:  tensor(146.4761, device='cuda:0') tensor(1172.1545, device='cuda:0') tensor(-474.8999, device='cuda:0') tensor(-686.8667, device='cuda:0')
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 104/104 [00:04<00:00, 26.95it/s, loss=2.93, lr=2.08e-6, step=104]Traceback (most recent call last):
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 181, in <module>
+    main()
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/main.py", line 54, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 129, in train
+    self.CAL_train(epoch, self.diffusion_mode)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer.py", line 243, in CAL_train
+    train_pred_geometry_1000 = sample_from_model(batch, self.model, device, self.diffusion, geometry_scale, self.diffusion_mode, self.image_pred_ox)
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/trainers/cal_trainer_func.py", line 33, in sample_from_model
+    geometry_pred = diffusion.inference_step(epsilon_pred[:,:,:6],
+  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/diffusion.py", line 62, in inference_step
+    bbox = super().step(cont_output, timestep.detach().item(), sample, generator, return_dict)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/diffusers/schedulers/scheduling_ddpm.py", line 443, in step
+    beta_prod_t = 1 - alpha_prod_t
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/_tensor.py", line 40, in wrapped
+    return f(*args, **kwargs)
+  File "/home/sehwan/anaconda3/envs/CAL/lib/python3.9/site-packages/torch/_tensor.py", line 941, in __rsub__
+    return _C._VariableFunctions.rsub(self, other)
+KeyboardInterrupt

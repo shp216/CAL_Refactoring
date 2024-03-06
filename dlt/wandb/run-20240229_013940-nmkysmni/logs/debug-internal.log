@@ -1,0 +1,345 @@
+2024-02-29 01:39:41,002 INFO    MainThread:215115 [internal.py:wandb_internal():86] W&B internal server running at pid: 215115, started at: 2024-02-29 01:39:41.002788
+2024-02-29 01:39:41,003 INFO    WriterThread:215115 [datastore.py:open_for_write():87] open: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/run-nmkysmni.wandb
+2024-02-29 01:39:41,004 DEBUG   SenderThread:215115 [sender.py:send():382] send: header
+2024-02-29 01:39:41,004 DEBUG   SenderThread:215115 [sender.py:send():382] send: run
+2024-02-29 01:39:41,966 INFO    SenderThread:215115 [dir_watcher.py:__init__():211] watching files in: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files
+2024-02-29 01:39:41,966 INFO    SenderThread:215115 [sender.py:_start_run_threads():1136] run started: nmkysmni with start time 1709138380.762379
+2024-02-29 01:39:41,971 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: check_version
+2024-02-29 01:39:41,971 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: check_version
+2024-02-29 01:39:42,771 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: run_start
+2024-02-29 01:39:42,809 DEBUG   HandlerThread:215115 [system_info.py:__init__():27] System info init
+2024-02-29 01:39:42,809 DEBUG   HandlerThread:215115 [system_info.py:__init__():42] System info init done
+2024-02-29 01:39:42,809 INFO    HandlerThread:215115 [system_monitor.py:start():194] Starting system monitor
+2024-02-29 01:39:42,810 INFO    SystemMonitor:215115 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-29 01:39:42,811 INFO    HandlerThread:215115 [system_monitor.py:probe():214] Collecting system info
+2024-02-29 01:39:42,813 INFO    SystemMonitor:215115 [interfaces.py:start():190] Started cpu monitoring
+2024-02-29 01:39:42,815 INFO    SystemMonitor:215115 [interfaces.py:start():190] Started disk monitoring
+2024-02-29 01:39:42,817 INFO    SystemMonitor:215115 [interfaces.py:start():190] Started gpu monitoring
+2024-02-29 01:39:42,822 INFO    SystemMonitor:215115 [interfaces.py:start():190] Started memory monitoring
+2024-02-29 01:39:42,830 INFO    SystemMonitor:215115 [interfaces.py:start():190] Started network monitoring
+2024-02-29 01:39:42,843 DEBUG   HandlerThread:215115 [system_info.py:probe():151] Probing system
+2024-02-29 01:39:42,852 DEBUG   HandlerThread:215115 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-29 01:39:42,852 DEBUG   HandlerThread:215115 [system_info.py:probe():199] Probing system done
+2024-02-29 01:39:42,852 DEBUG   HandlerThread:215115 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-21-generic-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-02-28T16:39:42.843741', 'startedAt': '2024-02-28T16:39:40.730336', 'docker': None, 'cuda': None, 'args': ('--infer_ckpt', '99'), 'state': 'running', 'program': '/home/sehwan/MIIL/CAL-Refactoring/dlt/inference.py', 'codePathLocal': 'inference.py', 'codePath': 'inference.py', 'host': 'sehwan--Ubuntu', 'username': 'sehwan', 'executable': '/home/sehwan/anaconda3/envs/CAL/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 962.391125, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 1100.501, 'min': 800.0, 'max': 5300.0}, {'current': 1100.337, 'min': 800.0, 'max': 5300.0}, {'current': 1099.997, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1100.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1100.961, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1100.0, 'min': 800.0, 'max': 5400.0}, {'current': 800.0, 'min': 800.0, 'max': 5400.0}, {'current': 1100.0, 'min': 800.0, 'max': 5400.0}, {'current': 1099.933, 'min': 800.0, 'max': 5400.0}, {'current': 1100.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1099.421, 'min': 800.0, 'max': 5300.0}, {'current': 1100.0, 'min': 800.0, 'max': 5300.0}, {'current': 1099.755, 'min': 800.0, 'max': 4200.0}, {'current': 1099.796, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 457.3268280029297, 'used': 66.24687576293945}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.165729522705078}}
+2024-02-29 01:39:42,852 INFO    HandlerThread:215115 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-29 01:39:42,853 INFO    HandlerThread:215115 [system_monitor.py:probe():227] Publishing system info
+2024-02-29 01:39:42,853 DEBUG   HandlerThread:215115 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-29 01:39:42,966 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/conda-environment.yaml
+2024-02-29 01:39:43,887 DEBUG   HandlerThread:215115 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-29 01:39:43,887 INFO    HandlerThread:215115 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-29 01:39:43,889 DEBUG   SenderThread:215115 [sender.py:send():382] send: files
+2024-02-29 01:39:43,889 INFO    SenderThread:215115 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-29 01:39:43,891 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-29 01:39:43,891 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:39:43,891 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: python_packages
+2024-02-29 01:39:43,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:39:43,893 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:39:43,966 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/conda-environment.yaml
+2024-02-29 01:39:43,966 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/requirements.txt
+2024-02-29 01:39:43,966 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/wandb-metadata.json
+2024-02-29 01:39:44,210 DEBUG   SenderThread:215115 [sender.py:send():382] send: telemetry
+2024-02-29 01:39:44,623 INFO    wandb-upload_0:215115 [upload_job.py:push():131] Uploaded file /tmp/tmpnq09npv9wandb/9ufbomt3-wandb-metadata.json
+2024-02-29 01:39:44,966 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:39:46,211 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:39:46,967 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:39:51,400 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:39:51,968 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:39:53,968 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:39:55,969 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:39:56,534 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:39:57,969 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:39:58,891 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:39:58,891 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:39:58,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:39:59,970 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:01,534 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:01,970 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:03,971 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:05,971 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:06,770 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:07,972 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:08,972 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:11,772 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:12,973 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/config.yaml
+2024-02-29 01:40:13,891 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:40:13,891 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:40:13,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:40:15,973 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:17,088 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:17,974 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:19,974 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:21,975 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:22,160 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:23,975 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:24,976 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:27,180 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:28,891 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:40:28,891 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:40:28,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:40:29,977 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:31,977 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:32,342 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:33,977 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:35,978 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:37,397 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:37,978 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:39,979 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:40,979 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:42,830 DEBUG   SystemMonitor:215115 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-29 01:40:42,831 DEBUG   SenderThread:215115 [sender.py:send():382] send: stats
+2024-02-29 01:40:42,831 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:43,891 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:40:43,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:40:43,893 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:40:45,980 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:47,862 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:47,980 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:49,980 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:51,981 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:52,876 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:53,981 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:54,982 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:55,982 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:40:57,877 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:40:58,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:40:58,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:40:58,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:40:59,982 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:01,983 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:03,026 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:03,983 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:05,983 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:07,984 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:08,592 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:09,984 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:11,984 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:12,840 DEBUG   SenderThread:215115 [sender.py:send():382] send: stats
+2024-02-29 01:41:13,635 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:13,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:41:13,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:41:13,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:41:13,985 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:15,985 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:16,985 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:17,985 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:19,612 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:23,986 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:24,621 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:25,987 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:27,987 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:28,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:41:28,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:41:28,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:41:29,808 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:29,987 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:31,988 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:33,989 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:34,917 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:35,989 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:37,989 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:38,989 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:40,844 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:42,831 DEBUG   SenderThread:215115 [sender.py:send():382] send: stats
+2024-02-29 01:41:43,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:41:43,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:41:43,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:41:43,991 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:45,982 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:45,991 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:47,992 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:49,992 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:51,382 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:51,992 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:53,993 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:54,993 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:41:56,757 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:41:58,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:41:58,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:41:58,893 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:41:59,994 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:01,860 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:01,994 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:03,994 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:05,995 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:06,950 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:07,995 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:09,996 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:10,996 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:11,996 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:12,255 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:12,832 DEBUG   SenderThread:215115 [sender.py:send():382] send: stats
+2024-02-29 01:42:13,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:42:13,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:42:13,893 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:42:17,311 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:17,997 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:19,998 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:21,998 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:22,323 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:23,999 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:25,999 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:26,999 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:28,140 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:28,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:42:28,892 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:42:28,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:42:32,000 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:33,168 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:34,001 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:36,001 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:38,002 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:38,289 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:40,002 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:42,002 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:42,832 DEBUG   SenderThread:215115 [sender.py:send():382] send: stats
+2024-02-29 01:42:43,491 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:43,892 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 01:42:43,893 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: stop_status
+2024-02-29 01:42:43,893 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:42:44,003 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:46,003 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:47,003 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:48,003 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:48,510 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:50,004 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:51,174 DEBUG   SenderThread:215115 [sender.py:send():382] send: telemetry
+2024-02-29 01:42:51,174 DEBUG   SenderThread:215115 [sender.py:send():382] send: exit
+2024-02-29 01:42:51,174 INFO    SenderThread:215115 [sender.py:send_exit():589] handling exit code: 0
+2024-02-29 01:42:51,174 INFO    SenderThread:215115 [sender.py:send_exit():591] handling runtime: 188
+2024-02-29 01:42:51,174 INFO    SenderThread:215115 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-29 01:42:51,174 INFO    SenderThread:215115 [sender.py:send_exit():597] send defer
+2024-02-29 01:42:51,175 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,175 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-29 01:42:51,175 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,175 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-29 01:42:51,175 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 1
+2024-02-29 01:42:51,175 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,175 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-29 01:42:51,175 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,175 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-29 01:42:51,175 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 2
+2024-02-29 01:42:51,175 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,175 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-29 01:42:51,175 INFO    HandlerThread:215115 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-29 01:42:51,175 DEBUG   SystemMonitor:215115 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-29 01:42:51,184 DEBUG   SystemMonitor:215115 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-29 01:42:51,184 INFO    HandlerThread:215115 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-29 01:42:51,184 INFO    HandlerThread:215115 [interfaces.py:finish():202] Joined disk monitor
+2024-02-29 01:42:51,206 INFO    HandlerThread:215115 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-29 01:42:51,206 INFO    HandlerThread:215115 [interfaces.py:finish():202] Joined memory monitor
+2024-02-29 01:42:51,206 INFO    HandlerThread:215115 [interfaces.py:finish():202] Joined network monitor
+2024-02-29 01:42:51,206 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,206 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-29 01:42:51,206 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 3
+2024-02-29 01:42:51,206 DEBUG   SenderThread:215115 [sender.py:send():382] send: stats
+2024-02-29 01:42:51,206 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,206 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-29 01:42:51,207 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 4
+2024-02-29 01:42:51,207 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,207 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-29 01:42:51,207 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 5
+2024-02-29 01:42:51,207 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,207 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-29 01:42:51,207 DEBUG   SenderThread:215115 [sender.py:send():382] send: summary
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-29 01:42:51,207 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 6
+2024-02-29 01:42:51,207 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,207 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-29 01:42:51,207 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,207 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-29 01:42:51,210 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 01:42:51,498 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 7
+2024-02-29 01:42:51,498 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:51,498 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-29 01:42:51,498 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:51,498 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-29 01:42:52,005 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:52,006 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/config.yaml
+2024-02-29 01:42:52,006 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/wandb-summary.json
+2024-02-29 01:42:52,174 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-29 01:42:53,006 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:53,499 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 8
+2024-02-29 01:42:53,499 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: poll_exit
+2024-02-29 01:42:53,500 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:53,500 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-29 01:42:53,501 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:53,501 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-29 01:42:53,501 INFO    SenderThread:215115 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-29 01:42:53,501 INFO    SenderThread:215115 [job_builder.py:_get_source_type():437] no source found
+2024-02-29 01:42:53,502 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 9
+2024-02-29 01:42:53,502 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:53,502 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-29 01:42:53,503 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:53,503 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-29 01:42:53,503 INFO    SenderThread:215115 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-29 01:42:54,006 INFO    Thread-7  :215115 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:54,007 INFO    SenderThread:215115 [dir_watcher.py:finish():388] scan: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files
+2024-02-29 01:42:54,008 INFO    SenderThread:215115 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/config.yaml config.yaml
+2024-02-29 01:42:54,008 INFO    SenderThread:215115 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/requirements.txt requirements.txt
+2024-02-29 01:42:54,013 INFO    SenderThread:215115 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/conda-environment.yaml conda-environment.yaml
+2024-02-29 01:42:54,013 INFO    SenderThread:215115 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/wandb-metadata.json wandb-metadata.json
+2024-02-29 01:42:54,021 INFO    SenderThread:215115 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log output.log
+2024-02-29 01:42:54,022 INFO    SenderThread:215115 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/wandb-summary.json wandb-summary.json
+2024-02-29 01:42:54,022 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 10
+2024-02-29 01:42:54,028 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:54,028 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-29 01:42:54,032 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:54,032 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-29 01:42:54,032 INFO    SenderThread:215115 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-29 01:42:54,175 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-29 01:42:54,176 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: poll_exit
+2024-02-29 01:42:54,464 INFO    wandb-upload_0:215115 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/config.yaml
+2024-02-29 01:42:54,555 INFO    wandb-upload_2:215115 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/conda-environment.yaml
+2024-02-29 01:42:54,669 INFO    wandb-upload_1:215115 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/requirements.txt
+2024-02-29 01:42:54,670 INFO    wandb-upload_4:215115 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/wandb-summary.json
+2024-02-29 01:42:55,176 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-29 01:42:55,177 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: poll_exit
+2024-02-29 01:42:55,419 INFO    wandb-upload_3:215115 [upload_job.py:push():131] Uploaded file /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/files/output.log
+2024-02-29 01:42:55,620 INFO    Thread-6  :215115 [sender.py:transition_state():617] send defer: 11
+2024-02-29 01:42:55,621 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:55,621 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-29 01:42:55,622 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:55,622 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-29 01:42:55,622 INFO    SenderThread:215115 [file_pusher.py:join():178] waiting for file pusher
+2024-02-29 01:42:55,623 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 12
+2024-02-29 01:42:55,623 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:55,623 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-29 01:42:55,624 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:55,624 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-29 01:42:55,624 INFO    SenderThread:215115 [file_stream.py:finish():595] file stream finish called
+2024-02-29 01:42:56,176 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-29 01:42:56,284 INFO    SenderThread:215115 [file_stream.py:finish():599] file stream finish is done
+2024-02-29 01:42:56,284 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 13
+2024-02-29 01:42:56,285 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: poll_exit
+2024-02-29 01:42:56,285 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:56,286 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-29 01:42:56,286 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:56,286 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-29 01:42:56,286 INFO    SenderThread:215115 [sender.py:transition_state():617] send defer: 14
+2024-02-29 01:42:56,287 DEBUG   SenderThread:215115 [sender.py:send():382] send: final
+2024-02-29 01:42:56,288 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 01:42:56,288 INFO    HandlerThread:215115 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-29 01:42:56,288 DEBUG   SenderThread:215115 [sender.py:send():382] send: footer
+2024-02-29 01:42:56,289 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: defer
+2024-02-29 01:42:56,289 INFO    SenderThread:215115 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-29 01:42:56,290 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-29 01:42:56,291 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: poll_exit
+2024-02-29 01:42:56,292 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 01:42:56,293 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: server_info
+2024-02-29 01:42:56,293 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-29 01:42:56,293 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-29 01:42:56,294 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: job_info
+2024-02-29 01:42:56,294 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: server_info
+2024-02-29 01:42:56,508 DEBUG   SenderThread:215115 [sender.py:send_request():409] send_request: job_info
+2024-02-29 01:42:56,509 DEBUG   HandlerThread:215115 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-29 01:42:56,510 INFO    HandlerThread:215115 [handler.py:finish():869] shutting down handler
+2024-02-29 01:42:57,294 INFO    WriterThread:215115 [datastore.py:close():296] close: /home/sehwan/MIIL/CAL-Refactoring/dlt/wandb/run-20240229_013940-nmkysmni/run-nmkysmni.wandb
+2024-02-29 01:42:57,508 INFO    SenderThread:215115 [sender.py:finish():1572] shutting down sender
+2024-02-29 01:42:57,508 INFO    SenderThread:215115 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-29 01:42:57,508 INFO    SenderThread:215115 [file_pusher.py:join():178] waiting for file pusher

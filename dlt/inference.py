@@ -97,9 +97,9 @@ def main(*args, **kwargs):
             pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler, geometry_scale, config.diffusion_mode, config.image_pred_ox)*batch["padding_mask"]
         real_geometry = batch["geometry"]
         
-        # print("################################################################################################33")
-        # print(pred_geometry)
-        # print("################################################################################################33")
+        print("################################################################################################33")
+        print(pred_geometry)
+        print("################################################################################################33")
         # 캔버스 크기 예시
         canvas_size = (1920, 1080)
         base_path = config.picture_path

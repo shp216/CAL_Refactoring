@@ -8,7 +8,7 @@ from models.utils import PositionalEncoding, TimestepEmbedder
 
 class CAL_518(ModelMixin, ConfigMixin):
     @register_to_config
-    def __init__(self, latent_dim=1024+64, num_layers=4, num_heads=8, dropout_r=0., activation="gelu",
+    def __init__(self, latent_dim=512, num_layers=4, num_heads=8, dropout_r=0., activation="gelu",
                  geometry_dim=256, mask_attention=True):
         super().__init__()
         self.latent_dim = latent_dim
@@ -39,11 +39,11 @@ class CAL_518(ModelMixin, ConfigMixin):
         self.cat_emb = nn.Parameter(torch.randn(6, 64))
         
         self.xy_emb = nn.Sequential(
-            nn.Linear(2, 256)
+            nn.Linear(2, 64)
         )
         
         self.wh_emb = nn.Sequential(
-            nn.Linear(2, 256)
+            nn.Linear(2, 64)
         )
          
         self.ratio_emb = nn.Sequential(
@@ -55,11 +55,11 @@ class CAL_518(ModelMixin, ConfigMixin):
         )
         
         self.r_emb = nn.Sequential(
-            nn.Linear(1, 128)
+            nn.Linear(1, 64)
         )
         
         self.z_emb = nn.Sequential(
-            nn.Linear(1, 128)
+            nn.Linear(1, 64)
         )
 
     def forward(self, sample, noisy_sample, timesteps):
@@ -108,7 +108,9 @@ class CAL_518(ModelMixin, ConfigMixin):
         key_padding_mask = torch.cat([additional_column, key_padding_mask], dim=1)
         
 
-        tokens_emb = torch.cat([xy_emb, wh_emb, r_emb, z_emb, image_emb, elem_cat_emb], dim=-1) #concat -> [64,max_comp,512]
+        
+        tokens_emb = torch.cat([xy_emb, wh_emb, r_emb, z_emb, image_emb], dim=-1) #concat -> [64,max_comp,512]
+
         #tokens_emb = self.tokens_emb(tokens_emb)
    
         tokens_emb = rearrange(tokens_emb, 'b c d -> c b d') #for transformer

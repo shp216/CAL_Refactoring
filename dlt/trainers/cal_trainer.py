@@ -17,6 +17,7 @@ from tqdm import tqdm
 
 
 from diffusion import GeometryDiffusionScheduler
+from trainers.cal_trainer_func import CALScheduler
 
 from evaluation.iou import transform, print_results, get_iou, get_mean_iou
 
@@ -35,8 +36,8 @@ from models.clip_encoder import CLIPModule
 from trainers.cal_trainer_func import sample_from_model, refinement_from_model, sample2dev
 
 class TrainLoopCAL:
-    def __init__(self, accelerator: Accelerator, model, diffusion: GeometryDiffusionScheduler, train_data,
-                 val_data, opt_conf,
+    def __init__(self, accelerator: Accelerator, model, diffusion: GeometryDiffusionScheduler, epsilon_scheduler: CALScheduler,
+                 train_data, val_data, opt_conf,
                  ckpt_dir,
                  samples_dir,
                  log_interval: int,
@@ -50,13 +51,15 @@ class TrainLoopCAL:
                  loss_weight = [1,1,1,1],
                  is_cond = True,
                  t_sampling = "uniform",
-                 image_pred_ox = True):
+                 image_pred_ox = True,
+                 ):
         
         self.train_data = train_data
         self.val_data = val_data
         self.accelerator = accelerator
         self.save_interval = save_interval
         self.diffusion = diffusion
+        self.epsilon_scheduler = epsilon_scheduler
         self.opt_conf = opt_conf
         self.ckpt_dir = ckpt_dir
         self.samples_dir = samples_dir
@@ -172,17 +175,17 @@ class TrainLoopCAL:
                             "image_features": noisy_image_features*batch['padding_mask_img']}
             
             uncond_batch = copy.deepcopy(batch)
-            if self.is_cond:
-                mask_num = int(0.5 * uncond_batch['geometry'].size(0))
-                mask_index = torch.randperm(uncond_batch['geometry'].size(0))[:mask_num]
+            # if self.is_cond:
+            #     mask_num = int(0.5 * uncond_batch['geometry'].size(0))
+            #     mask_index = torch.randperm(uncond_batch['geometry'].size(0))[:mask_num]
                 
-                uncond_batch['image_features'][mask_index] = 0
-                uncond_batch['geometry'][mask_index] = 0
-                uncond_batch["cat"][mask_index] = 0
+            #     uncond_batch['image_features'][mask_index] = 0
+            #     uncond_batch['geometry'][mask_index] = 0
+            #     uncond_batch["cat"][mask_index] = 0
 
             # Run the model on the noisy layouts
             with self.accelerator.accumulate(self.model):
-                model_predict = self.model(uncond_batch, noisy_batch, t) # -> [64,max_comp, 518] : xy(2) + wh(2) + r(1) + z(1) + image_feature(512)
+                model_predict = self.model(batch, noisy_batch, t) # -> [64,max_comp, 518] : xy(2) + wh(2) + r(1) + z(1) + image_feature(512)
                 if self.diffusion_mode == "epsilon":
                     bbox_loss, r_loss, z_loss, img_feature_loss = masked_l2_rz(noise, model_predict, batch['padding_mask'], batch['padding_mask_img'], img_feature_noise, self.image_pred_ox, self.device) #masked_12를 사용하여 xywh만 loss 계산 가능, masked_l2_r는 r,z, r의 normalize loss를 포함
                 elif self.diffusion_mode == "sample":
@@ -200,8 +203,12 @@ class TrainLoopCAL:
                 
                 
                 if self.diffusion_mode == "epsilon":
-                    true_geometry = noisy_geometry*batch['padding_mask']
-                    pred_geometry = self.diffusion.add_noise_Geometry(batch['geometry'], t, model_predict[:,:,:6])*batch['padding_mask'] 
+                    true_geometry = batch["geometry"]*batch['padding_mask']
+                    pred_geometry = self.epsilon_scheduler.sample_x0_epsilon(sample=noisy_geometry, timesteps=t, predict_epsilon=model_predict[:,:,:6])*batch['padding_mask']
+                    # print('#########################################################################################################3')
+                    # print(batch['geometry'].shape)
+                    # print(self.epsilon_scheduler.sample_x0_epsilon(sample=noisy_geometry, timesteps=t, predict_epsilon=model_predict[:,:,:6]).shape)
+                    # print('#########################################################################################################3')
                 elif self.diffusion_mode == "sample":
                     true_geometry = batch["geometry"]*batch['padding_mask']
                     pred_geometry = model_predict[:,:,:6]*batch['padding_mask']
@@ -290,13 +297,15 @@ class TrainLoopCAL:
                 val_losses_img_features.append(val_img_feature_loss.mean()*self.loss_weight[3])
             
                 if self.diffusion_mode == "epsilon":
-                    true_geometry = val_noisy_geometry*val_batch['padding_mask']
-                    val_pred_geometry = self.diffusion.add_noise_Geometry(val_batch['geometry'], val_t, val_model_predict[:,:,:6])*val_batch['padding_mask'] 
+                    true_geometry = val_batch["geometry"]*val_batch['padding_mask']
+                    val_pred_geometry = self.epsilon_scheduler.sample_x0_epsilon(sample=val_noisy_geometry, timesteps=val_t, predict_epsilon=val_model_predict[:,:,:6])*val_batch['padding_mask']
+                    # true_geometry = val_noisy_geometry*val_batch['padding_mask']
+                    # val_pred_geometry = self.diffusion.add_noise_Geometry(val_batch['geometry'], val_t, val_model_predict[:,:,:6])*val_batch['padding_mask'] 
                 elif self.diffusion_mode == "sample":
                     true_geometry = val_batch["geometry"]*val_batch['padding_mask']
                     val_pred_geometry = val_model_predict[:,:,:6]*val_batch['padding_mask']              
                 
-                val_true_box, val_pred_box = transform(true_geometry, val_pred_geometry, self.scaling_size,val_batch['padding_mask'], self.mean_0)
+                val_true_box, val_pred_box = transform(true_geometry, val_pred_geometry, self.scaling_size, val_batch['padding_mask'], self.mean_0)
                 
                 val_mean_iou = get_mean_iou(val_true_box, val_pred_box)
 

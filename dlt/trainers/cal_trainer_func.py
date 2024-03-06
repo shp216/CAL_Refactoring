@@ -1,5 +1,7 @@
 import torch
 import warnings
+from diffusers import DDPMScheduler
+
 warnings.filterwarnings("ignore")
 
 def sample_from_model(batch, model, device, diffusion, geometry_scale, diffusion_mode, image_pred_ox):
@@ -36,15 +38,15 @@ def sample_from_model(batch, model, device, diffusion, geometry_scale, diffusion
             
             noisy_batch['geometry'] = geometry_pred.prev_sample * batch['padding_mask']
         
-        if i%200 == 0:
-            print("############################################################################################################")
-            print("step: ", i)
-            print("batch: ", noisy_batch["geometry"][:,:,0].mean(), noisy_batch["geometry"][:,:,1].mean(), noisy_batch["geometry"][:,:,2].mean(), noisy_batch["geometry"][:,:,3].mean())
-            print("############################################################################################################")
+    #     if i%200 == 0:
+    #         print("############################################################################################################")
+    #         print("step: ", i)
+    #         print("batch: ", noisy_batch["geometry"][:,:,0].mean(), noisy_batch["geometry"][:,:,1].mean(), noisy_batch["geometry"][:,:,2].mean(), noisy_batch["geometry"][:,:,3].mean())
+    #         print("############################################################################################################")
         
-    print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
-    print(geometry_pred.pred_original_sample[:,:,0].mean(), geometry_pred.pred_original_sample[:,:,1].mean(), geometry_pred.pred_original_sample[:,:,2].mean(), geometry_pred.pred_original_sample[:,:,3].mean())
-    print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+    # print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+    # print(geometry_pred.pred_original_sample[:,:,0].mean(), geometry_pred.pred_original_sample[:,:,1].mean(), geometry_pred.pred_original_sample[:,:,2].mean(), geometry_pred.pred_original_sample[:,:,3].mean())
+    # print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
 
     return geometry_pred.pred_original_sample
 
@@ -105,3 +107,34 @@ def sample_timesteps(num_steps, batch_size, alpha, device):
         timesteps = torch.multinomial(weights, batch_size, replacement=True)
 
         return timesteps.to(device)
+    
+    
+    
+class CALScheduler(DDPMScheduler):
+    def __init__(self,  device='cpu', *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.device = device
+        
+    def sample_x0_epsilon(self, sample: torch.FloatTensor, timesteps: torch.IntTensor, predict_epsilon: torch.FloatTensor):
+        self.alphas_cumprod = self.alphas_cumprod.to(device=self.device)
+        t = timesteps
+        model_output = predict_epsilon
+        print(self.alphas_cumprod)
+        alpha_prod_t = self.alphas_cumprod[t]
+        beta_prod_t = 1 - alpha_prod_t
+        
+        alpha_prod_t = alpha_prod_t.flatten()
+        beta_prod_t = beta_prod_t.flatten()
+        
+        while len(alpha_prod_t.shape) < len(sample.shape):
+            alpha_prod_t = alpha_prod_t.unsqueeze(-1)
+        
+        while len(beta_prod_t.shape) < len(sample.shape):
+            beta_prod_t = beta_prod_t.unsqueeze(-1)
+        
+        pred_original_sample = (sample - beta_prod_t ** (0.5) * model_output) / alpha_prod_t ** (0.5)
+        
+
+        return pred_original_sample
+            
+    

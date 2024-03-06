@@ -1,7 +1,0 @@
-  0%|                                                                                                                                                                                           | 0/11 [00:00<?, ?it/s]
-Traceback (most recent call last):
-  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/inference.py", line 144, in <module>
-    main()
-  File "/home/sehwan/MIIL/CAL-Refactoring/dlt/inference.py", line 93, in main
-    pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler, geometry_scale, config.diffusion_mode)*batch["padding_mask"]
-TypeError: sample_from_model() missing 1 required positional argument: 'image_pred_ox'

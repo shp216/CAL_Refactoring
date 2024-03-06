@@ -9,6 +9,8 @@ from pprint import pprint
 #from pathlib import Path
 
 from diffusion import GeometryDiffusionScheduler
+from trainers.cal_trainer_func import CALScheduler
+
 from accelerate import Accelerator
 from data_loaders.canva import CanvaLayout
 from trainers.cal_trainer import TrainLoopCAL
@@ -50,8 +52,10 @@ def main(*args, **kwargs):
                                               beta_schedule=config.beta_schedule,
                                               prediction_type=config.diffusion_mode,
                                               clip_sample=False)
+    
+    Epsilon_Scheduler = CALScheduler(device=accelerator.device)
     LOG.info("Starting training...")
-    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler, epsilon_scheduler=Epsilon_Scheduler,
                  train_data=train_data, val_data=val_data, opt_conf=config.optimizer, ckpt_dir=config.ckpt_dir, samples_dir=config.samples_dir,
                  log_interval=config.log_interval, save_interval=config.save_interval,
                  device=accelerator.device, resume_from_checkpoint=config.resume_from_checkpoint,
